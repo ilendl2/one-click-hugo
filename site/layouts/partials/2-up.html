@@ -1,19 +1,23 @@
-<div class="bg-off-white pv4">
-  <div class="ph3 mw7 center">
-    <h2 class="f2 b lh-title mb2">{{.intro.heading}}</h2>
-    <p class="mb4 mw6">{{.intro.text}}</p>
-
-    <div class="flex-ns mhn2-ns mb3">
-      {{ range .products }}
-      <div class="ph2-ns w-50-ns">
-        <img src="{{.image}}" alt="" class="center db mb3" style="width: 240px">
-        <p>{{.text}}</p>
-      </div>
-      {{ end }}
+<div class="bg-off-white grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="medium-7 cell">
+      <center>
+        <h2 class="f2 b lh-title mb2">{{.intro.heading}}</h2>
+        <p class="mb4 mw6">{{.intro.text}}</p>
+      </center>
     </div>
-
-    <div class="tc">
-      <a href="/products" class="btn raise">See all products</a>
+    <div class="medium-9 cell">
+      <div class="grid-x grid-padding-x grid-padding-y medium-up-2">
+        {{ range .products }}
+          <div class="cell">
+            <img src="{{.image}}" alt="" class="center db mb3" style="width: 240px">
+            <p>{{.text}}</p>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+    <div class="medium-9 cell text-center">
+      <a href="/products" class="button">See all products</a>
     </div>
   </div>
 </div>
