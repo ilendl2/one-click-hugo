@@ -104,3 +104,16 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Preacher, name: preacher, widget: string}
               - {label: Text, name: text, widget: text}
               - {label: Date, name: date, widget: datetime}
+      - file: "site/content/ministries/_index.md"
+        label: "Ministries Page"
+        name: "ministries"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Description, name: "description", widget: "markdown"}
+          - {label: Image, name: image, widget: image}
+          - label: Groups
+            name: groups
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Text, name: text, widget: text}
