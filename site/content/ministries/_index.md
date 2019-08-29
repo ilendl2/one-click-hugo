@@ -15,5 +15,7 @@ groups:
       Good Shepherd helps to keep faith alive with fellowship groups for women,
       men, seniors, and more!
     title: Groups For Men and Women
+  - text: We have a number of activities that cater to Kids
+    title: Study and Prayer
 ---
 
