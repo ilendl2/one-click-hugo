@@ -21,7 +21,6 @@ block:
   button_link: /block
   button_text: Read More
   heading: Our Churches
-  imageUrl: /img/about-jumbotron.jpg
   text: >-
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus quam
     velit, sed tempus mauris molestie a. Aenean quis justo augue. Suspendisse
@@ -29,4 +28,3 @@ block:
     lobortis. Maecenas accumsan justo tortor, eget commodo sapien aliquet vel.
     Etiam tincidunt ipsum egestas malesuada consequat.
 ---
-

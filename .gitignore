@@ -1,5 +1,6 @@
 node_modules/
 dist/
+package-lock.json
 site/data/webpack.json
 /npm-debug.log
 yarn-error.log

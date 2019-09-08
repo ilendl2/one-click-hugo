@@ -62,7 +62,7 @@ collections: # A list of collections the CMS should be able to edit
               - label: Text
                 name: text
                 widget: text
-      - file: "site/content/values/_index.md"
+      - file: "site/content/block/_index.md"
         label: "Block Page"
         name: "block"
         fields:
