@@ -1,7 +1,7 @@
 ---
 title: Parish of the Good Shepherd
 subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-image: /img/about-direct-sourcing.jpg
+image: /img/good-shepherd-church-tunapuna.jpg
 intro:
   heading: Welcome
   text: >-
