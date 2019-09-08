@@ -20,7 +20,7 @@ blurb:
 block:
   button_link: /block
   button_text: Read More
-  heading: Our Services
+  heading: Our Churches
   imageUrl: /img/about-jumbotron.jpg
   text: >-
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus quam
