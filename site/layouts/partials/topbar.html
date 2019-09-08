@@ -1,18 +1,18 @@
 <header>
-  <div class="top-bar">
-    <div class="top-bar-left">
-      <ul class="dropdown menu" data-dropdown-menu>
-        <li>
-          <a href="/" title="Link to home page">
-            <img src="https://chrisdev.com/static/img/logo.png" alt="{{ .Site.Title }} logo" width="200">
-          </a>
-      	</li>
-      </ul>
-    </div>
-    <div class="top-bar-right">
-      <ul class="menu">
-        {{ partial "navigation.html" . }}
-      </ul>
-    </div>
-  </div>
+	<div id="top-bar" class="hide-for-print">
+	  <div class="grid-container">
+      <div class="grid-x grid-padding-x grid-padding-y align-center">
+		    <div id="logo" class="medium-4 cell">
+          <a href="/">
+	  	      <img src="https://goodshepherdtt.org/assets/img/logo.png" alt="{{ .Site.Title }} logo" width="300" style="margin-bottom: 10px;"/>
+	  	    </a>
+		    </div>
+		    <div id="menu" class="medium-9 cell" style="padding: 10px 0;">
+		    	<ul class="menu align-center vertical medium-horizontal" data-responsive-menu="drilldown medium-dropdown" style="margin: auto;">
+		    	   {{ partial "navigation.html" . }}
+		    	</ul>
+		    </div>
+		  </div>
+		</div>
+	</div>
 </header>

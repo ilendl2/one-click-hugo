@@ -6,30 +6,14 @@ media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Post" # Used in the UI, ie.: "New Post"
-    folder: "site/content/post" # The path to the folder where the documents are stored
+  - name: "blog" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Blog" # Used in the UI, ie.: "New Post"
+    folder: "site/content/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Intro Blurb", name: "description", widget: "text"}
-      - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "about" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "About Page" # Used in the UI, ie.: "New Post"
-    folder: "site/content/about" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: "worship" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Worship Page" # Used in the UI, ie.: "New Post"
-    folder: "site/content/worship" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "pages"
@@ -42,18 +26,25 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: Image, name: image, widget: image}
-          - {label: "Blurb", name: blurb, widget: object, fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
           - {label: "Intro", name: intro, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Products", name: products, widget: list, fields: [
-              {label: "Image", name: "image", widget: "image"},
-              {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Values", name: "values", widget: "object", fields: [
+          - {label: "Blurb", name: blurb, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
+          - {label: "Block", name: "block", widget: "object", fields: [
+              {label: "Heading", name: "heading", widget: string},
+              {label: "Image", name: "imageUrl", widget: "image"},
+              {label: "Text", name: "text", widget: "text"},
+              {label: "Button Text", name: "button_text", widget: string},
+              {label: "Button Link", name: "button_link", widget: string}]}
+      - file: "site/content/about/_index.md"
+        label: "About Page"
+        name: "about"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image", required: false}
+          - {label: "Body", name: "body", widget: "markdown"}
       - file: "site/content/contact/_index.md"
         label: "Contact Page"
         name: "contact"
@@ -71,31 +62,16 @@ collections: # A list of collections the CMS should be able to edit
               - label: Text
                 name: text
                 widget: text
-      - file: "site/content/sermon/_index.md"
-        label: "Sermon Page"
-        name: "sermon"
+      - file: "site/content/values/_index.md"
+        label: "Block Page"
+        name: "block"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Description, name: "description", widget: "markdown"}
           - {label: Image, name: image, widget: image}
-          - label: Sermon
-            name: sermon
+          - label: Block
+            name: block
             widget: list
             fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Preacher, name: preacher, widget: string}
+              - {label: Heading, name: heading, widget: string}
               - {label: Text, name: text, widget: text}
-              - {label: Date, name: date, widget: datetime}
-      - file: "site/content/ministries/_index.md"
-        label: "Ministries Page"
-        name: "ministries"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Description, name: "description", widget: "markdown"}
-          - {label: Image, name: image, widget: image}
-          - label: Groups
-            name: groups
-            widget: list
-            fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Text, name: text, widget: text}
+              - {label: Image, name: imageUrl, widget: image}

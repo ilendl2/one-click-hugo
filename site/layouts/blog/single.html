@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x grid-padding-y align-center">
+      <div class="medium-8 cell">
+        <h3 class="primary">{{.Title}}</h3>
+        <p><strong>{{ .Date.Format "Mon, Jan 2, 2006" }}</strong></p>
+        <p>{{ .Description }} </p>
+        {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+{{ end }}

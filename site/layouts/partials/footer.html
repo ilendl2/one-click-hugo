@@ -1,34 +1,59 @@
 <footer class="hide-for-print">
-  <div class="grid-container" style="max-width: 75rem;">
-    <div class="grid-x grid-padding-x grid-padding-y text-center">
-	  	<div id="find-us" class="medium-4 cell">
-	    	<h5><strong>Find Us</strong></h5>
-    		<li><i class="fas fa-map-marker"></i> #{{ .Site.Params.address }}, {{ .Site.Params.city }},</li>
-        <li style="margin-bottom: 15px;">{{ .Site.Params.country }}</li>
-			</div>
-
+	<div class="grid-container" style="max-width: 75rem;">
+		<div class="grid-x grid-padding-x">
 			<div id="contact-us" class="medium-4 cell">
-				<h5><strong>Contact Us</strong></h5>
-		    <li><i class="fas fa-phone"></i> <a href="tel:{{ .Site.Params.tel }}">{{ .Site.Params.tel }}</a></li>
-		    <li><i class="far fa-envelope"></i> <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></li>
+		    <h5><strong>Find Us</strong></h5>
+		    <li><i class="fi-marker" aria-hidden="true"></i><strong> {{ .Site.Params.church_1 }}</strong></li>
+        <li>{{ .Site.Params.address_1 }},
+        <li>{{ .Site.Params.city_1 }},</li>
+        <li style="margin-bottom: 15px;">{{ .Site.Params.country_1 }}</li>
+
+        <li><i class="fi-marker" aria-hidden="true"></i><strong> {{ .Site.Params.church_2 }}</strong></li>
+        <li>{{ .Site.Params.address_2 }},
+        <li>{{ .Site.Params.city_2 }},</li>
+        <li>{{ .Site.Params.country_2 }}</li>
 			</div>
 
 			<div id="social" class="medium-4 cell">
-				<h5><strong>Follow Us</strong></h5>
-		    <a href="{{ .Site.Params.facebook }}" title="Facebook" target="_blank"><i class="fab fa-facebook"></i></a>
-		    <a href="{{ .Site.Params.twitter }}" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
-		    <a href="{{ .Site.Params.instagram }}" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
-		    <a href="{{ .Site.Params.youtube }}" title="Instagram" target="_blank"><i class="fab fa-youtube"></i></a>
+				<h5><strong>Contact Us</strong></h5>
+		    <li><i class="fi-home" aria-hidden="true"></i> Office: Morton Street, Tunapuna </li>
+        <li><i class="fas fa-phone"></i> <a href="tel:{{ .Site.Params.tel }}">{{ .Site.Params.tel }}</a></li>
+		    <li><i class="far fa-envelope"></i> <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></li>
+
+				<h5 style="margin-top: 10px; margin-bottom: 0;"><strong>Social</strong></h5>
+        <a href="{{ .Site.Params.facebook }}" title="Facebook" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="{{ .Site.Params.twitter }}" title="Twitter" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="{{ .Site.Params.instagram }}" title="Instagram" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="{{ .Site.Params.youtube }}" title="Instagram" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+
+        <br>
+        
+				<a class="success button small" data-open="subscribeModal" style="border-radius: 5px; margin-top: 10px;"><strong>Subscribe to our Newsletter!</strong></a>
+
+				<div class="reveal" id="subscribeModal" style="background: #396; border-radius: 5px;" data-reveal>
+					<center>
+            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://app.mailjet.com/widget/iframe/2nVR/8cQ" width="100%" height="242"></iframe>
+				  </center>
+			    <button class="close-button" style="color: #fff;" data-close aria-label="Close modal" type="button">
+			    	<span aria-hidden="true">&times;</span>
+			    </button>
+				</div>
+			</div>
+
+			<div id="sitemap" class="medium-4 cell hide-for-small-only">
+	        <h5><strong>Explore Our Site</strong></h5>
+	        <li><a href="/">Home</a></li>
+	        {{ partial "navigation.html" . }}
 			</div>
 		</div>
 	</div>
 
   <div class="grid-container">
   	<div class="grid-x grid-padding-x align-center">
-	  	<div class="medium-9 cell">
-	    	<hr style="border-width: 1px; border-color: #fff; margin: 10px 0;"/>
-	    </div>
-	  </div>
+    	<div class="medium-10 cell">
+    		<hr style="border-width: 1px; border-color: #fff; margin: 10px 0;"/>
+    	</div>
+    </div>
   </div>
 
   <div id="copyright">
@@ -36,7 +61,7 @@
     	<div class="grid-x grid-padding-x align-center">
 	    	<div class="medium-10 cell">
           <center>
-  			    <p style="margin-bottom: 0; font-size: 14px;">Copyright © 2019 {{ .Site.Params.site_name }}. <br class="show-for-small-only">All rights reserved <br class="show-for-small-only">
+  			    <p>Copyright © 2019 {{ .Site.Params.site_name }}. <br class="show-for-small-only">All rights reserved <br class="show-for-small-only">
   	        	<span class="seperator hide-for-small-only">|</span>
   	        	<a href="/legal/privacy.html">Privacy Policy</a>
   	        	<span class="seperator">|</span>
