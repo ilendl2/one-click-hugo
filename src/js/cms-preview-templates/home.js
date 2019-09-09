@@ -22,16 +22,18 @@ export default class PostPreview extends React.Component {
           <p>{entry.getIn(["data", "intro", "text"])}</p>
         </div>
 
+        <div className="bg-grey pad">
+         {(entry.getIn(["data", "block"]) || []).map((block, i) => <div key={i}>
+           <img src={getAsset(block.get("image"))} alt="" style={{width: "240px"}}/>
+           <h5>{block.get("title")}</h5>
+           <p>{block.get("text")}</p>
+           <a className="button">{block.get("link")}</a>
+         </div>)}
+        </div>
+
         <div className="pad">
           <h2>{entry.getIn(["data", "blurb", "heading"])}</h2>
           <p>{entry.getIn(["data", "blurb", "text"])}</p>
-        </div>
-
-        <div className="bg-grey pad">
-          <h2>{entry.getIn(["data", "block", "heading"])}</h2>
-          { image && <img src={ imageUrl }/> }
-          <p>{entry.getIn(["data", "block", "text"])}</p>
-          <a className="button">{entry.getIn(["data", "block", "button_text"])}</a>
         </div>
     </div>
   }

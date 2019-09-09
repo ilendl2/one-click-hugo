@@ -4,11 +4,13 @@
     {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
   </div>
 
+  {{ partial "slider" .Params }}
+
   {{ partial "intro" .Params }}
 
   {{ partial "short-text" .Params.blurb}}
 
-  {{ partial "text-and-image" .Params.block}}
+  {{ partial "block" .Params }}
 
   {{ partial "blog" . }}
 
