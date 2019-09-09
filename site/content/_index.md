@@ -2,13 +2,6 @@
 title: Parish of the Good Shepherd
 image: /img/good-shepherd-church-tunapuna.jpg
 slider:
-  - title: Holy Week Services at Good Shepherd
-    image: /img/holy-week-slider.jpg
-    link: '#'
-    text: >-
-      Wednesday - 12 noon, Maundy Thursday (Washing of the feet) - 6pm, Good
-      Friday - 12 noon, Gloria Saturday (Easter Vigil) - 6pm, Easter Sunday -
-      7am
   - title: Welcome
     image: /img/good-shepherd-people.jpg
     link: '#'
@@ -29,14 +22,13 @@ block:
     text: >-
       Worship brings us into community where people can support each other and
       where we can encourage each other to live in the ways God calls us to
-      live. Click to see our schedule of services.
+      live.
   - title: Ministries
     image: /img/ministries.svg
     link: '#'
     text: >-
       Good Shepherd offers many opportunities for people of all ages and
-      interests to participate in the life of our church. Click to find out how
-      you can become involved .
+      interests to participate in the life of our church.
   - title: Baptisms + Weddings + Funerals
     image: /img/special-services.svg
     link: '#'
@@ -64,8 +56,8 @@ block:
       please let us know!
 blurb:
   heading: The Good Shepherd
+  image: /img/good-shepherd-church-tunapuna.jpg
   text: >-
     I am the good shepherd I know my sheep and my sheep know me just as the
     Father knows me and I know the Father and I lay down my life for the sheep
 ---
-

@@ -1,15 +1,10 @@
-<div id="bg-off-white" class="pad">
-  <div class="grid-container pad">
-    <div class="grid-x grid-padding-x align-center">
-      <div class="medium-10 cell">
-        <div class="grid-x grid-padding-x align-middle">
-          <div class="medium-5 cell">
-            <h2><strong>{{ .heading }}</strong></h2>
-          </div>
-          <div class="medium-7 cell">
-            <p>{{ .text }}</p>
-          </div>
-        </div>
+<div class="hero-section" style="background-image: url('{{.image}}')">
+  <div class="hero-section-text grid-container">
+    <div class="grid-x align-center">
+      <div class="medium-4 cell">
+        <i class="fas fa-heart fa-2x"></i>
+        <h3><strong>{{ .heading }}</strong></h3>
+        <p>{{ .text }}</p>
       </div>
     </div>
   </div>

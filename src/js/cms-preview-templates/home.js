@@ -18,6 +18,14 @@ export default class PostPreview extends React.Component {
         <Jumbotron image={image} title={entry.getIn(["data", "title"])} subtitle={entry.getIn(["data", "subtitle"])}/>
 
         <div className="bg-grey pad">
+         {(entry.getIn(["data", "slider"]) || []).map((block, i) => <div key={i}>
+           <img src={getAsset(block.get("image"))} alt="" style={{width: "240px"}}/>
+           <h5>{block.get("title")}</h5>
+           <p>{block.get("text")}</p>
+         </div>)}
+        </div>
+
+        <div className="bg-grey pad">
           <h2>{entry.getIn(["data", "intro", "heading"])}</h2>
           <p>{entry.getIn(["data", "intro", "text"])}</p>
         </div>
@@ -27,7 +35,6 @@ export default class PostPreview extends React.Component {
            <img src={getAsset(block.get("image"))} alt="" style={{width: "240px"}}/>
            <h5>{block.get("title")}</h5>
            <p>{block.get("text")}</p>
-           <a className="button">{block.get("link")}</a>
          </div>)}
         </div>
 

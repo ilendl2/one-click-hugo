@@ -1,10 +1,10 @@
-<div class="grid-container">
-  <div class="grid-x grid-padding-x grid-padding-y medium-up-3">
+<div id="grid" class="grid-container pad">
+  <div class="grid-x grid-padding-x grid-padding-y medium-up-3 pad">
     {{ range .block }}
-      <div class="cell">
+      <div class="cell text-center">
         <a href="{{.link}}">
-          <img src="{{.image}}" alt="" style="width: 100px;">
-          <h5>{{.title}}</h5>
+          <img src="{{.image}}" alt="" width="60">
+          <h5><strong>{{.title}}</strong></h5>
           <p>{{.text}}</p>
         </a>
       </div>

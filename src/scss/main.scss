@@ -12,11 +12,12 @@ $black: #0a0a0a;
 $white: #fefefe;
 $off-white: #f8f8f8;
 
-body, html { overflow-x:hidden; }
+body, html { overflow-x:hidden;}
 
 body {
-    background: $white;
+    background: $off-white;
     font-size: 19px;
+    color: $emperor;
 }
 
 .frame-content {
@@ -28,6 +29,7 @@ body {
 }
 
 #bg-grey {background: $light-gray;}
+#bg-primary {background: $primary; h2, p {color: $white;}}
 #bg-off-white{background: $off-white;}
 
 .grid-container {max-width: 70rem;}
@@ -53,8 +55,27 @@ a:hover {color: darken($primary, 10%);}
 	ul.medium-horizontal {margin-top: 17px;}
 }
 
+#slider {
+  img {padding: 10px 50px;}
+	.caption {
+    p {font-size: 1.2rem;line-height: 1.25;}
+    h3 {
+      color: $primary;
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 0;
+    }
+    .button {border-radius: 3px;}
+  }
+}
+
 #media-block {
   img {border-radius: 8px;}
+}
+
+#grid {
+  a p {color: $emperor; font-size: 15px;}
+  h5 {color: $emperor;}
 }
 
 footer {
@@ -104,6 +125,6 @@ $hero-height: 40vh;
 }
 
 #homepage .hero-section {
-   height: 70vh;
-   h1 {background: transparent;}
+   height: 60vh;
+   h3 {background: transparent;}
 }
