@@ -1,5 +1,5 @@
 ---
-title: Parish of the Good Shepherd
+title: Homepage
 image: /img/good-shepherd-church-tunapuna.jpg
 slider:
   - title: Welcome
@@ -63,4 +63,3 @@ blurb:
     just as the Father knows me and I know the Father
     and I lay down my life for the sheep...
 ---
-
