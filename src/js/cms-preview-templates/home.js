@@ -32,7 +32,7 @@ export default class PostPreview extends React.Component {
 
         <div className="bg-grey pad">
          {(entry.getIn(["data", "block"]) || []).map((block, i) => <div key={i}>
-           <img src={getAsset(block.get("image"))} alt="" style={{width: "240px"}}/>
+           <img src={getAsset(block.get("image"))} alt="" style={{width: "80px"}}/>
            <h5>{block.get("title")}</h5>
            <p>{block.get("text")}</p>
          </div>)}
