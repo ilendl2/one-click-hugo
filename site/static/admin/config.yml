@@ -28,6 +28,21 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Block", name: block, widget: list, fields: [
           {label: "Name", name: "name", widget: "string"},
           {label: "Roll", name: "roll", widget: "string"}]}
+  - name: "worship" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Worship" # Used in the UI, ie.: "New Post"
+    folder: "site/content/worship" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Sermon", name: sermon, widget: list, fields: [
+          {label: "Title", name: "title", widget: "string"},
+          {label: "Preacher", name: "preacher", widget: "string"},
+          {label: "Date", name: "date", widget: "datetime"},
+          {label: "Details", name: "details", widget: "text"},
+          {label: "Link", name: "link", widget: "string"}]}
   - name: "pages"
     label: "Pages"
     files:
