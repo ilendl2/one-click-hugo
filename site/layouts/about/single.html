@@ -6,6 +6,22 @@
 
         <div class="article-post-content">
           {{ .Content }}
+
+          {{ if .Params.block }}
+            <div class="grid-container">
+              <h3>Lay Leadership</h3>
+              <div class="grid-x grid-padding-x grid-padding-y medium-up-2">
+                {{ range .Params.block }}
+                  <div class="cell text-center">
+                    <div class="card" style="padding: 10px;">
+                      <h5>{{.name}}</h5>
+                      <h6>{{.roll}}</h6>
+                    </div>
+                  </div>
+                {{ end }}
+              </div>
+            </div>
+          {{ end }}
         </div>
       </div>
       <div id="sidebar" class="hide-for-print hide-for-small-only medium-3 cell">

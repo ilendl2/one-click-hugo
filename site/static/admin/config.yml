@@ -25,6 +25,9 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Block", name: block, widget: list, fields: [
+          {label: "Name", name: "name", widget: "string"},
+          {label: "Roll", name: "roll", widget: "string"}]}
   - name: "pages"
     label: "Pages"
     files:
