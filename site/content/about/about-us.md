@@ -1,6 +1,6 @@
 ---
 title: About Us
-image: /img/worship-good-shepherd-anglican.jpg
+image: /img/good-shepherd-church-tunapuna.jpg
 ---
 Welcome to The Parish of Good Shepherd Parish in congregation at the [Church of Good Shepherd Tunapuna](https://goo.gl/maps/CrrrQ3SGpVM2) and at [St.Oswald's Caroni](https://goo.gl/maps/CrrrQ3SGpVM2). Good Shepherd is an Anglican Church a part of the [Anglican Church in the Diocese of Trinidad and Tobago](http://theanglicanchurchtt.com) a member of the [Province of the West Indies](http://http://westindies.anglican.org) and a part of the worldwide [Anglican Communion](http://anglican.org). The [Right Reverend Claude Berkley](http://theanglicanchurchtt.com/home-page/history/bishops-clergy/bishop-claude-berkley/) is our Diocesan Bishop.
 
