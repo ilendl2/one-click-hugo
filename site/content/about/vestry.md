@@ -1,6 +1,6 @@
 ---
 title: Vestry
-image: /img/worship-good-shepherd-anglican.jpg
+image: /img/good-shepherd-vestry.jpg
 ---
 
 #### What is the Vestry 
