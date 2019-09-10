@@ -203,6 +203,10 @@ $article-title-case: uppercase;
   border-top: 0;
   padding: 0 35px;
   margin-bottom: 1rem;
+  .card {
+    h6 {color: $emperor;}
+    p {color: $emperor; font-size: 14px;}
+  }
 }
 
 // SOCIAL BAR

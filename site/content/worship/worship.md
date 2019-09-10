@@ -20,7 +20,7 @@ Our historic Church building is currently undergoing [extensive renovation work]
 
 Learn more about the theological significance of the tent in this wonderful sermon delivered by Archdeacon Baldeo to mark the first celebration of the Holy Eucharist at our "Big Tent" (June 17, 2018).
 
-<iframe src="https://www.youtube.com/embed/CC5FQmUcpPs" allow="autoplay; encrypted-media" allowfullscreen="" width="480" height="270" frameborder="0"></iframe>
+<div class="responsive-embed"><iframe src="https://www.youtube.com/embed/CC5FQmUcpPs" allow="autoplay; encrypted-media" allowfullscreen="" width="480" height="270" frameborder="0"></iframe></div>
 
 ##### Parking and Other Arrangements
 
