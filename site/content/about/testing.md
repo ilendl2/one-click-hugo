@@ -1,8 +1,8 @@
 ---
-title: Testing
+title: About Us
 image: /img/worship-good-shepherd-anglican.jpg
 ---
-Welcome to The Parish of Good Shepherd Parish in congregation at the [Church of Good Shepherd Tunapuna]](https://goo.gl/maps/CrrrQ3SGpVM2) and at [St.Oswald's Caroni](https://goo.gl/maps/CrrrQ3SGpVM2). Good Shepherd is an Anglican Church a part of the [Anglican Church in the Diocese of Trinidad and Tobago](http://theanglicanchurchtt.com) a member of the [Province of the West Indies](http://http://westindies.anglican.org) and a part of the worldwide [Anglican Communion](http://anglican.org). The [Right Reverend Claude Berkley](http://theanglicanchurchtt.com/home-page/history/bishops-clergy/bishop-claude-berkley/) is our Diocesan Bishop.
+Welcome to The Parish of Good Shepherd Parish in congregation at the [Church of Good Shepherd Tunapuna](https://goo.gl/maps/CrrrQ3SGpVM2) and at [St.Oswald's Caroni](https://goo.gl/maps/CrrrQ3SGpVM2). Good Shepherd is an Anglican Church a part of the [Anglican Church in the Diocese of Trinidad and Tobago](http://theanglicanchurchtt.com) a member of the [Province of the West Indies](http://http://westindies.anglican.org) and a part of the worldwide [Anglican Communion](http://anglican.org). The [Right Reverend Claude Berkley](http://theanglicanchurchtt.com/home-page/history/bishops-clergy/bishop-claude-berkley/) is our Diocesan Bishop.
 
 Good Shepherd has been a place of welcome and worship since 1886\. We have a rich history but a vibrant mission and vision for what God is calling us to be and do in the 21st Century. Led by the [Venerable Kenley Baldeo](/about_us/clergy.html), Archdeacon North we're a community of caring people who gather to worship and praise God in Common Prayer.
 
