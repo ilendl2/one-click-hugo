@@ -16,7 +16,6 @@ body, html { overflow-x:hidden;}
 
 body {
     background: $off-white;
-    font-size: 19px;
     color: $emperor;
 }
 
@@ -40,6 +39,7 @@ a:hover {color: darken($primary, 10%);}
 .button, button {background: $primary; border-radius: 4px; color: $white;}
 .button:hover, button:hover {background: darken($primary, 10%);}
 .primary {color: $primary;}
+p {font-size: 16px;}
 
 .title-bar {
 	background: $off-white;
