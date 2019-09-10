@@ -10,23 +10,38 @@ The Vestry serves as the *defacto*  "Board of Directors" of the Parish i.e they 
 ###  Officers
 
 - The Rector's Warden is appointed by the Rector from among the Vestry members.  They act as consultant and advisor to the Rector.
+
 - The Peoples  warden is elected by the Vestry from its members.  They are mainly responsible for the upkeep of church property.  
+
 
 #### (2018-2019)  Vestry Membership
 
-Shown in the photo above
 - Mr. Dave James - Rectors Warden
+
 - Mrs. Eula Reid-Mayo - Peoples Warden, Good Shepherd
+
 - Mrs. Rita Watson Steele - Treasurer
+
 - Mrs. Lynette Springer  - Secretary
+
 - Mrs. Eulyna Julius
+
 - Mr. Oscar Gooding
+
 - Mrs. Jean Bootman
+
 - Mrs. Lystra Roach
+
 - Mrs. Jacqueline Sargent
+
 - Mrs Susan Rennie
+
 - Mr. Dane Goodridge
+
 - Mr. Christopher Clarke
+
 - Ms. Marjorie Squires - St Oswalds Vestry Representative
+
 - Mr. William Calliste - People Warden, St. Oswalds
+
 - Ms. Joanne Crichlow - Assistant People's Warden St Oswalds
