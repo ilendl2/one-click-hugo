@@ -49,10 +49,32 @@ a:hover {color: darken($primary, 10%);}
 #top-bar, .top-bar {
 	background: transparent;
 	text-align: center;
-	ul {background: transparent;}
+  .submenu li {text-align: left;}
 	li {font-size: 15px; font-family: 'Alegreya', serif;}
+	.dropdown.menu a {
+		padding: 0.7rem 1.25rem;
+	}
+
+	.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a::after {border: 0;}
+
+	.submenu {
+		background: $primary;
+		border: 0;
+		border-radius: 3px;
+		li {border-bottom: 1px solid rgba(255, 255, 255, 0.3);}
+		li:last-of-type {border-bottom: 0;}
+		a {color: $white;}
+		z-index: 999999;
+	}
 
 	ul.medium-horizontal {margin-top: 17px;}
+}
+
+#side_menu {
+  padding: 0;
+  h6.title{background: $secondary; padding: 6px; color: $white;}
+  hr:last-of-type {border: 0;}
+  font-size: 14px;
 }
 
 #slider {
@@ -85,6 +107,7 @@ footer {
   h5 {color: white;}
   padding: 20px 0;
   ul {margin-left: 0;}
+  .menu.vertical {display: none;}
   p, li {color: $white; margin-bottom: 0; font-size: 14px;}
   li {list-style: none;}
   a, a:hover {color: $white;}
@@ -128,3 +151,132 @@ $hero-height: 40vh;
    height: 60vh;
    h3 {background: transparent;}
 }
+
+$article-title-case: uppercase;
+
+.simple-article-header {
+  background: $white;
+  border-radius: 5px;
+  padding: 1.3rem 2rem .7rem;
+  border: 1px solid $medium-gray;
+  border-bottom:0;
+  .article-date-read {
+    color: $dark-gray;
+  }
+
+  .article-title {
+    text-transform: $article-title-case;
+    a {
+      color: $black;
+
+      &:hover,
+      &:focus {
+        color: $primary;
+      }
+    }
+  }
+
+  .article-author-comments {
+    a.article-comments {
+      color: $dark-gray;
+
+      &:hover,
+      &:focus {
+        color: $primary;
+      }
+    }
+  }
+
+  .article-date-read,
+  .article-title,
+  .article-author-comments,
+  .article-social,
+  .article-post-image,
+  .article-post-content {
+    margin-bottom: 0.25rem;
+  }
+}
+
+.article-post-content {
+  background: $white;
+  border: 1px solid $medium-gray;
+  border-top: 0;
+  padding: 0 35px;
+  margin-bottom: 1rem;
+}
+
+// SOCIAL BAR
+
+$social-button-size: 1.8rem;
+$social-button-border-width: 0.125rem;
+$social-button-font-size: 1rem;
+$social-button-line-height: 1.6em;
+$social-button-border-radius: 1.6875rem;
+$social-button-transition: all 0.5s ease;
+$social-button-margin: 0.25rem;
+
+$social-brand-facebook: #3b5998;
+$social-brand-twitter: #55acee;
+$social-brand-whatsapp: #43d854;
+$social-brand-linkedin: #007bb5;
+$social-brand-mail: #555;
+$social-brand-print: #777;
+
+@mixin social-button($brand-color, $brand-icon) {
+  background: $brand-color;
+
+  &:before {
+    font-family: "FontAwesome";
+  }
+}
+
+.rounded-social-buttons {
+  padding: 10px 0;
+
+  .social-button {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: $social-button-size;
+    height: $social-button-size;
+    border: $social-button-border-width solid transparent;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    color: $white;
+    font-size: $social-button-font-size;
+    font-weight: normal;
+    line-height: $social-button-line-height;
+    border-radius: $social-button-border-radius;
+    transition: $social-button-transition;
+    margin-right: $social-button-margin;
+    margin-bottom: $social-button-margin;
+
+    &.facebook {
+      background: $social-brand-facebook;
+    }
+
+    &.twitter {
+      background: $social-brand-twitter;
+    }
+
+    &.linkedin {
+      background: $social-brand-linkedin;
+    }
+
+    &.whatsapp {
+      background: $social-brand-whatsapp;
+    }
+
+    &.mail {
+      background: $social-brand-mail;
+    }
+
+    &:hover,
+    &:focus {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+// END SOCIAL BAR

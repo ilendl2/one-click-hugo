@@ -1,0 +1,15 @@
+<div class="simple-article-header">
+    <h1 class="primary">
+      {{.title}}
+    </h1>
+
+    <div class="article-social">
+      {{ partial "social-media-sharing" }}
+    </div>
+
+    {{ if .image }}
+    <div class="article-post-image">
+      <img src="{{ .image }}" alt="{{ .Title }}" class="thumbnail text-center"/>
+    </div>
+    {{ end }}
+</div>

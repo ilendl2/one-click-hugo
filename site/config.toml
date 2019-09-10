@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Parish of the Good Shepherd"
 [params]
   site_name = "Parish of the Good Shepherd"
+  site_url = "https://goodshepherdtt.netlify.com/"
   description = "Good Shepherd Anglican Parish has a mission is to enhance the spiritual lives of persons through fellowship, worship and outreach programmes."
   chruch_1= "The Church of the Good Shepherd"
   address_1= "Freeling Street"
