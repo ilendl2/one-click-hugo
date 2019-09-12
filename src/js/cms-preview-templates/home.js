@@ -19,7 +19,7 @@ export default class PostPreview extends React.Component {
 
         <div className="bg-grey pad">
           <h2>{entry.getIn(["data", "intro", "heading"])}</h2>
-          { widgetFor("text") }
+          <p>{entry.getIn(["data", "intro", "text"])}</p>
         </div>
 
         <div className="bg-grey pad">
@@ -32,7 +32,7 @@ export default class PostPreview extends React.Component {
 
         <div className="pad">
           <h2>{entry.getIn(["data", "blurb", "heading"])}</h2>
-          { widgetFor("text") }
+          <p>{entry.getIn(["data", "blurb", "text"])}</p>
         </div>
     </div>
   }

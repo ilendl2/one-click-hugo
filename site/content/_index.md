@@ -75,4 +75,3 @@ blurb:
     just as the Father knows me and I know the Father
     and I lay down my life for the sheep...
 ---
-
