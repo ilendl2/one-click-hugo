@@ -1,11 +1,10 @@
 ---
-title: "Contact"
-logo: "/img/logo.svg"
+title: Contact
+logo: /img/android-chrome-512x512.png
 contact_entries:
-  - heading: Location
-    text: "3A St Benedicts Gardens, Tunapuna, Trinidad & Tobago"
-  - heading: Working hours
-    text: "Mondays – Fridays: 9AM – 3PM We’re closed on Saturday & Sunday"
+  - heading: The Parish of the Good Shepherd
+    text: 'Freeling Street, Tunapuna, Trinidad'
+  - heading: St Oswald's
+    text: 'Southern Main Road, Caroni, Trinidad'
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus quam velit, sed tempus mauris molestie a. Aenean quis justo augue. Suspendisse varius sit amet justo sollicitudin accumsan. Quisque vestibulum volutpat lobortis.
+test
