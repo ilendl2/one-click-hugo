@@ -1,4 +1,7 @@
 {{ define "main" }}
+
+	{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
+	
 	<div class="bg-off-white grid-container pad">
 		<div class="grid-x grid-padding-x grid-padding-y align-center">
 			<div class="medium-8 cell">
