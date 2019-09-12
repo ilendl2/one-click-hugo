@@ -1,10 +1,18 @@
 <header>
 	<div id="top-bar" class="hide-for-print">
+		<div class="title-bar show-for-small-only" data-responsive-toggle="menu" data-hide-for="medium">
+		  <button class="menu-icon" type="button" style="background: transparent;"data-toggle></button>
+		  <div class="title-bar-title">
+		  	<a href="/">
+		  	  <img src="/img/logo.png" alt="{{ .Site.Title }} logo" width="200" />
+		  	</a>
+		  </div>
+		</div>
 	  <div class="grid-container">
       <div class="grid-x grid-padding-x grid-padding-y align-center">
-		    <div id="logo" class="medium-4 cell">
+		    <div id="logo" class="medium-4 cell hide-for-small-only">
           <a href="/">
-	  	      <img src="https://goodshepherdtt.org/assets/img/logo.png" alt="{{ .Site.Title }} logo" width="300" style="margin-bottom: 10px;"/>
+	  	      <img src="/img/logo.png" alt="{{ .Site.Title }} logo" width="300" style="margin-bottom: 10px;"/>
 	  	    </a>
 		    </div>
 		    <div id="menu" class="medium-9 cell" style="padding: 10px 0;">
