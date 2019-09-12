@@ -1,0 +1,31 @@
+{{ define "main" }}
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x grid-padding-y align-center">
+      <div class="medium-11 cell">
+        {{ partial "article-header" .Params }}
+
+        <div class="article-post-content">
+          {{ .Content }}
+
+          {{ if .Params.group }}
+            <div class="grid-container">
+              <div class="grid-x grid-padding-x grid-padding-y medium-up-3">
+                {{ range .Params.group }}
+                  <div class="cell sermon">
+                    <div class="card" style="padding: 10px;">
+                      <h5 class="primary" style="margin-bottom: 10px;">{{.title}}</h5>
+                      <p>{{.details}}</p>
+                      {{ if .link }}
+                      <a href="{{.link}}" class="button" style="margin-top: 5px;">Learn More</a>
+                      {{ end }}
+                    </div>
+                  </div>
+                {{ end }}
+              </div>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }}
