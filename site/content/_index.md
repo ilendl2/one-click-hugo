@@ -13,8 +13,20 @@ slider:
 intro:
   heading: Welcome
   text: >-
-    The Good Shepherd Parish. We're a community of caring people who gather to
-    worship and praise God in Common Prayer.
+
+    **The Good Shepherd Parish**. We're a community of caring people who gather
+    to worship and praise God in Common Prayer.
+
+
+    ##### **In Congregation at:**
+
+
+    [ The Church of the Good Shepherd, Freeling Street,
+    Tunapuna](https://goo.gl/maps/CrrrQ3SGpVM2)
+
+
+    [ St Oswald's, Southern Main Road,
+    Caroni,](https://goo.gl/maps/h8y7qRnHvKK2)
 block:
   - title: Service Schedule
     image: /img/schedule.svg
@@ -63,3 +75,4 @@ blurb:
     just as the Father knows me and I know the Father
     and I lay down my life for the sheep...
 ---
+
