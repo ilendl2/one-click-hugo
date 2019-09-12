@@ -18,5 +18,10 @@ group:
   - details: We have a number of activities that cater to Kids
     link: /ministries/study-prayer/
     title: Study and Prayer
+  - details: >-
+      At Good Shepherd, it's important for us to share the love of God with our
+      neighbors. Join us as we engage the community.
+    link: /ministries/outreach/
+    title: Mission and Outreach
 ---
 We believe that God created us to be in community and fellowship with others. Good Shepherd offers many opportunities for members of all ages and interests to participate in our ministries. Our groups gather regularly to develop relationships, learn, serve, and just have fun.
