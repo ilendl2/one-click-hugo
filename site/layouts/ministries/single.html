@@ -9,13 +9,13 @@
 
           {{ if .Params.group }}
             <div class="grid-container">
-              <div class="grid-x grid-padding-x grid-padding-y medium-up-2">
+              <div class="grid-x grid-padding-x grid-padding-y medium-up-2" data-equalizer>
                 {{ range .Params.group }}
                   <div class="cell sermon text-center">
-                    <div class="card" style="padding: 10px;">
-                      {{ if .image }}<img src="{{.image}}" alt="{{.title}}">{{ end }}
-                      <h6 class="primary"><strong>{{.title}}</strong></h6>
-                      <p>{{.details}}</p>
+                    <div class="card">
+                      {{ if .image }}<img src="{{.image}}" alt="{{.title}}" style="margin-bottom: 8px;">{{ end }}
+                      <h5 class="primary">{{.title}}</h5>
+                      <p  data-equalizer-watch>{{.details}}</p>
                       {{ if .link }}
                       <a href="{{.link}}" class="button expanded" style="margin-top: 5px;">Learn More</a>
                       {{ end }}

@@ -1,5 +1,5 @@
 ---
-title: 'Mission and Outreach '
+title: 'Mission and Outreach'
 image: /img/mission-outreach-feed.jpg
 description: >-
   At Good Shepherd, it's important for us to share the love of God with our

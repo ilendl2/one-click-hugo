@@ -204,6 +204,8 @@ $article-title-case: uppercase;
   padding: 0 35px;
   margin-bottom: 1rem;
   .card {
+    padding: 15px;
+    img {border-radius: 5px;}
     h6 {color: $emperor;}
     p {color: $emperor; font-size: 14px;}
   }

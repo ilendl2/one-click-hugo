@@ -9,14 +9,14 @@
 
           {{ if .Params.sermon }}
             <div class="grid-container">
-              <div class="grid-x grid-padding-x grid-padding-y medium-up-2">
+              <div class="grid-x grid-padding-x grid-padding-y medium-up-2"  data-equalizer>
                 {{ range .Params.sermon }}
                   <div class="cell sermon">
                     <div class="card" style="padding: 10px;">
                       <h5 class="primary" style="margin-bottom: 10px;">{{.title}}</h5>
                       <h6><strong><i class="fas fa-user"></i> {{.preacher}}</strong></h6>
                       <h6>{{ .Date.Format "Mon, Jan 2, 2006" }}</h6>
-                      <p>{{.details}}</p>
+                      <p data-equalizer-watch>{{.details}}</p>
                       <audio controls style="border-radius: 5px;">
                         <source src="{{.link}}" type="audio/mp3">
                       </audio>
