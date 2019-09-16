@@ -1,0 +1,22 @@
+<div class="grid-container pad">
+	<div class="grid-x grid-padding-x grid-padding-y">
+		<div class="medium-12 cell">
+			<center><h2><strong>Upcoming Events</strong></h2></center>
+		</div>
+		<div class="medium-12 cell">
+			<div class="grid-x grid-padding-x grid-padding-y medium-up-3 text-center">
+				{{ range first 4 (where .Data.Pages "Type" "event") }}
+					<div class="cell">
+						<div class="card">
+							<h4 class="primary"><strong>{{ .Title }}</strong></h4>
+							<p><strong><small style="font-size: 90%;">{{ .Date.Format "2 Jan 2006" }}</small></strong></p>
+							<p><strong><small style="font-size: 90%;">{{ .Location }}</small></strong></p>
+							<p>{{ .Description }}</p>
+							<a href="{{ .RelPermalink }}" class="button">More Details →</a>
+						</div>
+					</div>
+				{{ end }}
+			</div>
+		</div>
+	</div>
+</div>

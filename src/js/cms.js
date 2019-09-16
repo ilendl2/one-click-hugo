@@ -8,6 +8,7 @@ import HomePreview from "./cms-preview-templates/home";
 import AboutPreview from "./cms-preview-templates/about";
 import BlogPreview from "./cms-preview-templates/blog";
 import ContactPreview from "./cms-preview-templates/contact";
+import EventPreview from "./cms-preview-templates/event";
 import MinistriesPreview from "./cms-preview-templates/ministries";
 import WorshipPreview from "./cms-preview-templates/worship";
 
@@ -16,6 +17,7 @@ CMS.registerPreviewTemplate("home", HomePreview);
 CMS.registerPreviewTemplate("about", AboutPreview);
 CMS.registerPreviewTemplate("blog", BlogPreview);
 CMS.registerPreviewTemplate("contact", ContactPreview);
+CMS.registerPreviewTemplate("event", EventPreview);
 CMS.registerPreviewTemplate("ministries", MinistriesPreview);
 CMS.registerPreviewTemplate("worship", WorshipPreview);
 CMS.init();
