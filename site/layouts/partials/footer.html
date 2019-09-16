@@ -3,12 +3,12 @@
 		<div class="grid-x grid-padding-x">
 			<div id="contact-us" class="medium-4 cell">
 		    <h5><strong>Find Us</strong></h5>
-		    <li><i class="fi-marker" aria-hidden="true"></i><strong> {{ .Site.Params.church_1 }}</strong></li>
+		    <li><i class="fas fa-map-marker"></i><strong> {{ .Site.Params.church_1 }}</strong></li>
         <li>{{ .Site.Params.address_1 }},
         <li>{{ .Site.Params.city_1 }},</li>
         <li style="margin-bottom: 15px;">{{ .Site.Params.country_1 }}</li>
 
-        <li><i class="fi-marker" aria-hidden="true"></i><strong> {{ .Site.Params.church_2 }}</strong></li>
+        <li><i class="fas fa-map-marker"></i><strong> {{ .Site.Params.church_2 }}</strong></li>
         <li>{{ .Site.Params.address_2 }},
         <li>{{ .Site.Params.city_2 }},</li>
         <li>{{ .Site.Params.country_2 }}</li>
@@ -16,19 +16,19 @@
 
 			<div id="social" class="medium-4 cell">
 				<h5><strong>Contact Us</strong></h5>
-		    <li><i class="fi-home" aria-hidden="true"></i> Office: Morton Street, Tunapuna </li>
-        <li><i class="fas fa-phone"></i> <a href="tel:{{ .Site.Params.tel }}">{{ .Site.Params.tel }}</a></li>
-		    <li><i class="far fa-envelope"></i> <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></li>
+		    <li><i class="fas fa-home" aria-hidden="true"></i> &nbsp;Office: Morton Street, Tunapuna </li>
+        <li><i class="fas fa-phone"></i> <a href="tel:{{ .Site.Params.tel }}"> &nbsp;{{ .Site.Params.tel }}</a></li>
+		    <li><i class="far fa-envelope"></i> <a href="mailto:{{ .Site.Params.email }}"> &nbsp;{{ .Site.Params.email }}</a></li>
 
-				<h5 style="margin-top: 10px; margin-bottom: 0;"><strong>Social</strong></h5>
+				<h5 style="margin: 10px 0;"><strong>Follow Us</strong></h5>
         <a href="{{ .Site.Params.facebook }}" title="Facebook" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
         <a href="{{ .Site.Params.twitter }}" title="Twitter" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
         <a href="{{ .Site.Params.instagram }}" title="Instagram" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
         <a href="{{ .Site.Params.youtube }}" title="Instagram" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
 
         <br>
-        
-				<a class="success button small" data-open="subscribeModal" style="border-radius: 5px; margin-top: 10px;"><strong>Subscribe to our Newsletter!</strong></a>
+
+				<a class="success button small" data-open="subscribeModal" style="border-radius: 5px; margin-top: 20px;"><strong>Subscribe to our Newsletter!</strong></a>
 
 				<div class="reveal" id="subscribeModal" style="background: #396; border-radius: 5px;" data-reveal>
 					<center>
@@ -42,7 +42,6 @@
 
 			<div id="sitemap" class="medium-4 cell hide-for-small-only">
 	        <h5><strong>Explore Our Site</strong></h5>
-	        <li><a href="/">Home</a></li>
 	        {{ partial "navigation.html" . }}
 			</div>
 		</div>

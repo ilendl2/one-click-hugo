@@ -1,6 +1,12 @@
 {{ define "main" }}
 
-<h1>Nothing Here...</h1>
-<h3><a href="{{ "/" | relURL }}">Go Home</a></h3>
+<div id="content" class="grid-container">
+  <div class="grid-x grid-padding-x align-center">
+    <div id="standard_page" class="medium-8 cell text-center">
+        <img src="img/404.png" style="margin-bottom: 20px;">
+        <a class="button" href="{{ "/" | relURL }}" style="border-radius: 2px;">TAKE ME TO THE HOMEPAGE &nbsp;&#8594;</a>
+      </div>
+  </div>
+</div>
 
 {{ end }}
