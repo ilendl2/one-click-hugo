@@ -16,7 +16,7 @@ Other prominent members of the congregation at Good Shepherd have included:
 * Carlyle Henry - Former Permanent Secretary, Ministry of Education of Trinidad and Tobago
 * Reynold Cooper - Former Head of the Public Service
 
-![Bell Tower](/img/bell-tower.jpg)
+![Bell Tower](/img/bell-tower-2.jpg)
 
 Architecturally, the outstanding feature of the Church is its towering steel belfry and bells which could be heard as far away as St Augustine. The Church building has been identified for inclusion on the list of national heritage sites by the National Trust of Trinidad and Tobago.
 

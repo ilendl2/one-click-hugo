@@ -3,13 +3,23 @@ title: Homepage
 image: /img/good-shepherd-church-tunapuna.jpg
 slider:
   - title: Welcome
-    image: /img/good-shepherd-people.jpg
-    link: '#'
+    image: /img/good-shepherd-people.png
+    link: '/worship/worship/'
     text: >-
       Welcome to The Parish of Good Shepherd Parish in congregation at the
       Church of Good Shepherd Tunapuna and at St.Oswald's Caroni. We're a
       community of caring people who gather to worship and praise God in Common
       Prayer. Interested in paying us a visit?
+  - title: Parish Hall
+    image: /img/parish-hall.png
+    link: '/about/parish-hall/'
+    text: >-
+      The Good Shepherd Parish Hall is one of the best venues in the East for your upcoming event. The flexible configuration of the Hall means that we can accommodate small and large function(up to 350 persons). Call the Office, 663-2153 to make a booking now!
+  - title: Youtube Channel
+    image: /img/youtube.png
+    link: 'https://www.youtube.com/channel/UCvbIE2fxwmcZvHtnVv7aoxw'
+    text: >-
+      We've started a YouTube Channel where we will be posting videos from selected events including; Church services, sermons, musical performances and other special events. Please subscribe to our YouTube channel so you can enjoy this content.
 intro:
   heading: Welcome
   text: >-
@@ -65,4 +75,3 @@ blurb:
     just as the Father knows me and I know the Father
     and I lay down my life for the sheep...
 ---
-

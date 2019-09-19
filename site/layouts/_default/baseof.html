@@ -13,6 +13,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Alegreya|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slippry/1.4.0/slippry.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.5.3/css/foundation.min.css">
 
@@ -41,6 +42,7 @@
       <script src="{{ relURL . }}"></script>
     {{ end }}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slippry/1.4.0/slippry.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.5.3/js/foundation.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js"></script>
     <script>
@@ -62,6 +64,27 @@
           }, 600);
           return false;
         });
+      });
+    </script>
+    <script>
+      jQuery('#slider').slippry({
+        // general elements & wrapper
+        slippryWrapper: '<div class="sy-box property-slider" />', // wrapper to wrap everything, including pager
+
+        // options
+        adaptiveHeight: true, // height of the sliders adapts to current slide
+        captions: false, // Position: overlay, below, custom, false
+
+        // pager
+        pager: false,
+
+        // controls
+        controls: true,
+        autoHover: true,
+
+        // transitions
+        transition: 'horizontal', // fade, horizontal, kenburns, false
+        speed: 2000 // time the transition takes (ms)
       });
     </script>
   </body>
