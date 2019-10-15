@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+{{ partial "jumbotron" (dict "imageUrl" "/img/the-good-shepherd.jpg" "title" "Events") }}
+
+<div class="grid-container pad">
+  <ul class="grid-x grid-padding-x grid-padding-y medium-up-3" data-equalizer>
+    {{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
+      <div class="cell">
+        <div class="card text-center" data-equalizer-watch>
+        	<h4 class="primary">{{ .Title }}</h4>
+        	<p><strong>{{ .Date.Format "Mon, Jan 2, 2006" }}</strong></p>
+        	<a href="{{ .RelPermalink }}" class="button">More Info →</a>
+        </div>
+      </div>
+    {{ end }}
+  </ul>
+  {{ partial "pagination" . }}
+</div>
+
+{{end}}

@@ -39,6 +39,16 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "media" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Media" # Used in the UI, ie.: "New Post"
+    folder: "site/content/media" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Gallery", name: "gallery", widget: "string"}
+      - {label: "Photo", name: "photo", widget: "string"}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Image", name: "image", widget: "image", required: false}
   - name: "worship" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Worship" # Used in the UI, ie.: "New Post"
     folder: "site/content/worship" # The path to the folder where the documents are stored
