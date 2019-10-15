@@ -1,13 +1,13 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" "/img/the-good-shepherd.jpg" "title" "Photo Galleries") }}
+{{ partial "jumbotron" (dict "imageUrl" "/img/the-good-shepherd.jpg" "title" "Photo Gallery") }}
 
-<div class="grid-container pad">
+<div id="gallery" class="grid-container pad">
   <ul class="grid-x grid-padding-x grid-padding-y medium-up-3" data-equalizer>
     {{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
       <div class="cell">
         <div class="card text-center" data-equalizer-watch>
-          <img src="{{.Params.image}}" alt="{{ .Title }}">
+          <div class="center-cropped" style="background-image: url('{{.Params.image }}');"></div>
         	<h4 class="primary" style="margin-top: 10px;">{{ .Title }}</h4>
         	<a href="{{ .RelPermalink }}" class="button">View Gallery →</a>
         </div>

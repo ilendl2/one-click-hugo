@@ -45,10 +45,8 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Gallery ID", name: "gallery", widget: "string"}
-      - {label: "Photo ID", name: "photo", widget: "string"}
-      - {label: "Description", name: "description", widget: "text", required: false}
-      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Gallery Script", name: "gallery", widget: "markdown"}
+      - {label: "Image", name: "image", widget: "string"}
   - name: "worship" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Worship" # Used in the UI, ie.: "New Post"
     folder: "site/content/worship" # The path to the folder where the documents are stored

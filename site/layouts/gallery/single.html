@@ -3,10 +3,7 @@
     <div class="grid-x grid-padding-x grid-padding-y align-center">
       <div class="medium-8 cell text-center">
         <h3 class="primary">{{.Title}}</h3>
-        {{ if .Description }}<p>{{ .Description }}</p>{{ end }}
-        <a data-flickr-embed="true" href="https://www.flickr.com/photos/184650297@N04/albums/{{.Params.Gallery}}" title="{{ .Title }}">
-        <img src="https://live.staticflickr.com/65535/{{.Params.Photo}}" width="311" height="640" alt="{{ .Title }}"></a>
-        <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+        {{ .Content }}
       </div>
     </div>
   </div>
