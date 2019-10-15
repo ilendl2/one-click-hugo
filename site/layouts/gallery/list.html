@@ -7,7 +7,8 @@
     {{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
       <div class="cell">
         <div class="card text-center" data-equalizer-watch>
-        	<h4 class="primary">{{ .Title }}</h4>
+          <img src="{{.Params.image}}" alt="{{ .Title }}">
+        	<h4 class="primary" style="margin-top: 10px;">{{ .Title }}</h4>
         	<a href="{{ .RelPermalink }}" class="button">View Gallery →</a>
         </div>
       </div>

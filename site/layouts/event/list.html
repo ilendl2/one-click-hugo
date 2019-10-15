@@ -7,6 +7,7 @@
     {{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
       <div class="cell">
         <div class="card text-center" data-equalizer-watch>
+          {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
         	<h4 class="primary">{{ .Title }}</h4>
         	<p><strong>{{ .Date.Format "Mon, Jan 2, 2006" }}</strong></p>
         	<a href="{{ .RelPermalink }}" class="button">More Info →</a>

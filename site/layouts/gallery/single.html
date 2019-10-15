@@ -4,8 +4,8 @@
       <div class="medium-8 cell text-center">
         <h3 class="primary">{{.Title}}</h3>
         {{ if .Description }}<p>{{ .Description }}</p>{{ end }}
-        <a data-flickr-embed="true" href="https://www.flickr.com/photos/{{.gallery}}" title="{{ .Title }}">
-        <img src="https://live.staticflickr.com/{{.photo}}" width="311" height="640" alt="{{ .Title }}"></a>
+        <a data-flickr-embed="true" href="https://www.flickr.com/photos/{{.Params.Gallery}}" title="{{ .Title }}">
+        <img src="https://live.staticflickr.com/{{.Params.Photo}}" width="311" height="640" alt="{{ .Title }}"></a>
         <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
       </div>
     </div>
