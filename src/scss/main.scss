@@ -19,6 +19,14 @@ body {
     color: $emperor;
 }
 
+#slider {
+  img {padding: 50px 10px;}
+	.caption {
+    p {font-size: 1.2rem;line-height: 1.25;}
+    .button {border-radius: 3px;}
+  }
+}
+
 .frame-content {
   .bg-grey {background: $light-gray;}
   .bg-off-white{background: $off-white;}
@@ -44,30 +52,6 @@ p {font-size: 16px;}
 .title-bar {
 	background: $off-white;
 	.menu-icon::after {background: $primary; box-shadow: 0 7px 0 $primary, 0 14px 0 $primary;}
-}
-
-#top-bar, .top-bar {
-	background: transparent;
-	text-align: center;
-  .submenu li {text-align: left;}
-	li {font-size: 15px; font-family: 'Alegreya', serif;}
-	.dropdown.menu a {
-		padding: 0.7rem 1.25rem;
-	}
-
-	.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a::after {border: 0;}
-
-	.submenu {
-		background: $primary;
-		border: 0;
-		border-radius: 3px;
-		li {border-bottom: 1px solid rgba(255, 255, 255, 0.3);}
-		li:last-of-type {border-bottom: 0;}
-		a {color: $white;}
-		z-index: 999999;
-	}
-
-	ul.medium-horizontal {margin-top: 17px;}
 }
 
 #side_menu {
@@ -282,10 +266,129 @@ $social-brand-print: #777;
 
 // END SOCIAL BAR
 
-#slider {
-  img {padding: 20px 10px;}
-	.caption {
-    p {font-size: 1.2rem;line-height: 1.25;}
-    .button {border-radius: 3px;}
+
+
+
+// TOPBAR
+
+$topbar-responsive-bg: $primary;
+$topbar-responsive-animation-type: fade-in; // or use slide-down or none
+
+.topbar-responsive {
+  background: $topbar-responsive-bg;
+  padding: 1rem;
+
+  .topbar-responsive-logo {
+    color: $white;
+    vertical-align: middle;
+  }
+
+  .menu {
+    background: $topbar-responsive-bg;
+
+    li:last-of-type {
+      margin-right: 0;
+    }
+
+    a {
+      color: $white;
+      transition: color 0.15s ease-in;
+
+      &:hover {
+        color: lighten($topbar-responsive-bg, 60%);
+      }
+
+      @media screen and (max-width: 39.9375em) {
+        padding: 0.875rem 0;
+      }
+    }
+
+    .topbar-responsive-button {
+      color: $white;
+      border-color: $white;
+      border-radius: 5000px;
+      transition: color 0.15s ease-in, border-color 0.15s ease-in;
+
+      &:hover {
+        color: lighten($topbar-responsive-bg, 60%);
+        border-color: lighten($topbar-responsive-bg, 60%);
+      }
+
+      @media screen and (max-width: 39.9375em) {
+        width: 100%;
+        margin: 0.875rem 0;
+      }
+    }
+  }
+
+   @media screen and (max-width: 39.9375em) {
+     padding: 0.75rem;
+
+    .top-bar-title {
+      position: relative;
+      width: 100%;
+
+      span {
+        position: absolute;
+        right: 0;
+        border: 1px solid $white;
+        border-radius: 5px;
+        padding: 0.25rem 0.45rem;
+        top: 50%;
+        transform: translateY(-50%);
+
+        .menu-icon {
+          margin-bottom: 4px;
+        }
+      }
+    }
   }
 }
+
+@keyframes fadeIn {
+  from {
+    opacity:0;
+  } to {
+    opacity:1;
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.dropdown.menu {
+  li.is-active > a {color: $white;}
+  li > a {
+    padding: .5rem 1rem;
+    font-size: 14px;
+  }
+  .is-dropdown-submenu > li a {padding: .8rem;}
+}
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a::after {border: none;}
+.dropdown.menu.medium-horizontal > li.opens-right > .is-dropdown-submenu {
+  z-index: 99999;
+  border: 0;
+  border-radius: 5px;
+  background: darken($primary, 10%);
+}
+
+.drilldown {
+  a {background: transparent;}
+}
+
+.menu.simple {
+  -webkit-box-align: left !important;
+  -webkit-align-items: left !important;
+  -ms-flex-align: left !important;
+  align-items: left !important;
+
+  li + li {margin: 0;}
+}
+
+// END TOPBAR
