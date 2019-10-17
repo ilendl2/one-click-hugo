@@ -67,9 +67,10 @@ p {font-size: 16px;}
 
 #gallery, #events {
   .center-cropped {
-    width: 100%;
-    height: 250px;
-    background-position: top center;
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
   }
 }
