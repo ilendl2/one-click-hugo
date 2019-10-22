@@ -74,11 +74,10 @@ block:
       please let us know!
 blurb:
   heading: The Good Shepherd
-  image: /img/the-good-shepherd.jpg
+  image: /img/good-shepherd-church-tunapuna.jpg
   text: |-
     I am the good shepherd
     I know my sheep and my sheep know me
     just as the Father knows me and I know the Father
     and I lay down my life for the sheep...
 ---
-

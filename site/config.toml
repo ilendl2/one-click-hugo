@@ -1,6 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "Parish of the Good Shepherd"
+buildFuture = true
 [params]
   site_name = "Parish of the Good Shepherd"
   site_url = "https://goodshepherdtt.netlify.com/"

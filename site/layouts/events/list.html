@@ -1,10 +1,10 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" "/img/the-good-shepherd.jpg" "title" "Events") }}
+{{ partial "jumbotron" (dict "imageUrl" "/img/good-shepherd-church-tunapuna.jpg" "title" "Upcoming Events") }}
 
 <div id="events" class="grid-container pad">
   <ul class="grid-x grid-padding-x grid-padding-y medium-up-3" data-equalizer>
-    {{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
+    {{ range (.Paginator 4).Pages.ByExpiryDate.Reverse }}
       <div class="cell">
         <div class="card text-center" data-equalizer-watch>
           {{ if .Params.image }}<div class="center-cropped" style="background-image: url('{{.Params.image }}');"></div>{{ end }}
