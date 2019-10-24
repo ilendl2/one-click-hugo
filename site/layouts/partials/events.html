@@ -9,7 +9,7 @@
 					<div class="cell">
 						<div class="card">
 							{{ if .Params.image }}<div class="center-cropped" style="background-image: url('{{.Params.image }}');"></div>{{ end }}
-							<h4 class="primary"><strong>{{ .Title }}</strong></h4>
+							<h5 class="primary"><strong>{{ .Title }}</strong></h5>
 							<p><strong><small style="font-size: 90%;">{{ .Date.Format "2 Jan 2006" }}</small></strong></p>
 							<a href="{{ .RelPermalink }}" class="button">More Details →</a>
 						</div>
