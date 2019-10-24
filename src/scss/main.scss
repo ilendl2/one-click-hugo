@@ -65,13 +65,15 @@ p {font-size: 16px;}
   img {border-radius: 8px;}
 }
 
-#gallery, #events {
+#gallery, #events, #grid {
   .center-cropped {
     width: 300px;
     height: 200px;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    margin-bottom: 10px;
+    border-radius: 5px;
   }
 }
 
