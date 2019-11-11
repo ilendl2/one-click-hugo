@@ -14,6 +14,8 @@ $off-white: #f8f8f8;
 
 body, html { overflow-x:hidden;}
 
+h1, h2, h3, h4, h5, h6, p {color: $emperor;}
+
 body {
     background: $off-white;
     color: $emperor;
@@ -67,7 +69,7 @@ p {font-size: 16px;}
 
 #gallery, #events, #grid {
   .center-cropped {
-    width: 300px;
+    width: 100%;
     height: 200px;
     background-size: cover;
     background-position: center center;
@@ -75,6 +77,10 @@ p {font-size: 16px;}
     margin-bottom: 10px;
     border-radius: 5px;
   }
+}
+
+#events {
+  p {margin-bottom: 4px;}
 }
 
 #icons {
