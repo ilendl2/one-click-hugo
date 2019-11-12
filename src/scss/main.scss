@@ -129,8 +129,8 @@ $hero-height: 40vh;
   justify-content: center;
 
   .hero-section-text {
-    color: $white;
-    h1 {background: $primary; color: $white; border-radius: 5px; padding: 5px 10px; text-shadow: 1px 1px 2px $black; font-weight: 600;}
+    h1, h3, p, i {color: $white;}
+    h1 {background: $primary; border-radius: 5px; padding: 5px 10px; text-shadow: 1px 1px 2px $black; font-weight: 600;}
     h3 {background: $primary; border-radius: 5px; padding: 5px;}
   }
 }
