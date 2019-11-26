@@ -1,5 +1,5 @@
 ---
-title: 'Mission and Outreach'
+title: Mission and Outreach
 image: /img/mission-outreach-feed.jpg
 description: >-
   At Good Shepherd, it's important for us to share the love of God with our
@@ -10,6 +10,7 @@ group:
       This committee organizes projects geared towards generating funds to
       assist in the financial upkeep of the Church. Meetings are held twice a
       month under the chairmanship of Dave James (Peoples Warden)
+    link: /ministries/special-events-committee/
     title: Special Events Committee
   - details: >-
       The mandate of the Committee is to provide holistic support for
