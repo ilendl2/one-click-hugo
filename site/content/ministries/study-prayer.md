@@ -18,9 +18,7 @@ group:
   - details: >-
       Our meetings are held on the third Wednesday of Each month at 5pm in the
       Church building. In addition to our praise, we study various aspects of
-      the Bible and share testimonies and inspirational thoughts. We also lead
-      the congregation in prayer and hymn singing on the 1st, 3rd and 5th
-      Sundays of the month in preparation for morning service.
+      the Bible and share testimonies and inspirational thoughts.
     title: Life in the Spirit
     image: /img/praise-worship.jpg
     link: /ministries/life-in-the-spirit/
