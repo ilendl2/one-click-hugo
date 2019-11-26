@@ -10,8 +10,7 @@ group:
       Bible Study meets on Tuesday evenings from 5 PM in the Conference Room.
       When we study the bible it is not only for information but also for
       transformation and application to our own lives and those those who we
-      come into contact with. All are invited to attend our Tuesday evening
-      sessions.
+      come into contact with.
     title: Bible Study
     image: /img/bible-study.jpg
     link: /ministries/bible-study/
