@@ -12,12 +12,14 @@ group:
       contact Dane Goodridge danegoodridge@yahoo.com
     title: Music Ministry
     image: /img/music-ministry.jpg
+    link: /worship/music-minstry/
   - details: >-
       The ACMS is a fellowship of Christian men who seek to live out the
       Christian faith in brotherhood with each other. Contact Oscar Gooding if
       you are interested in joining the ACMS
     title: Anglican Church Men Society (ACMS)
     image: /img/acms.jpg
+    link: /ministries/acms/
   - details: >-
       The Good Shepherd branch of the Mothers Union is a part of community of
       over 4 million members in 83 countries. We aim to encourage parents in
@@ -26,12 +28,14 @@ group:
       member.
     title: The Mothers' Union
     image: /img/mothers-union.jpg
+    link: /ministries/mothers-union/
   - details: >-
       Our Ushers are charged with ensuring the needs of the congregation are met
       prior to, during and following Services. Contact Eula Reid-Mayo for
       information about joining the Ushers Group
     title: Ushers Group
     image: /img/ushers.jpg
+    link: /ministries/ushers/
   - details: >-
       The mission of Flower Guild is to enhance our worship, and to glorify God
       by presenting gifts of natural beauty. The volunteers of the Flower Guild
@@ -39,12 +43,14 @@ group:
       in serving on the new Flower Guild, please contact Rene Lovell.
     title: The Flower Guild
     image: /img/flower-guild.jpg
+    link: /ministries/flower-guild/
   - details: >-
       The Survivors Group provides support and education to individuals and
       families who have experienced the loss of a loved one. Contact Arlene
       Forde if you wish to become involved with the Survivors Group.
     title: The Survivors Group
     image: /img/survivors-group.jpg
+    link: /ministries/survivors-group/
 ---
 
 
