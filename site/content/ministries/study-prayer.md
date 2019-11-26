@@ -21,7 +21,7 @@ group:
       the Bible and share testimonies and inspirational thoughts. We also lead
       the congregation in prayer and hymn singing on the 1st, 3rd and 5th
       Sundays of the month in preparation for morning service.
-    title: Life in the Spirit Praise and Worship Group
+    title: Life in the Spirit
     image: /img/praise-worship.jpg
     link: /ministries/life-in-the-spirit/
   - details: >-
