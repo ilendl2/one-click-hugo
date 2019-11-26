@@ -8,8 +8,7 @@ group:
   - details: >-
       Music is an integral part of our worship at Good Shepherd, and we are
       supremely blessed to have an extraordinary team of singers, musicians and
-      dancers who lead us in praise. If you like to share your musical gifts,
-      contact Dane Goodridge danegoodridge@yahoo.com
+      dancers who lead us in praise.
     title: Music Ministry
     image: /img/music-ministry.jpg
     link: /worship/music-minstry/
@@ -22,32 +21,27 @@ group:
     link: /ministries/acms/
   - details: >-
       The Good Shepherd branch of the Mothers Union is a part of community of
-      over 4 million members in 83 countries. We aim to encourage parents in
-      caring for their children, not just physically and mentally but also
-      spiritually. Contact Lystra Roach if you are interested in becoming a
-      member.
+      over 4 million members in 83 countries. We aim to encourage parents to
+      care for their children spiritually.
     title: The Mothers' Union
     image: /img/mothers-union.jpg
     link: /ministries/mothers-union/
   - details: >-
       Our Ushers are charged with ensuring the needs of the congregation are met
-      prior to, during and following Services. Contact Eula Reid-Mayo for
-      information about joining the Ushers Group
+      prior to, during and following Services.
     title: Ushers Group
     image: /img/ushers.jpg
     link: /ministries/ushers/
   - details: >-
       The mission of Flower Guild is to enhance our worship, and to glorify God
       by presenting gifts of natural beauty. The volunteers of the Flower Guild
-      procure and arrange flowers for the altar each week. If you are interested
-      in serving on the new Flower Guild, please contact Rene Lovell.
+      procure and arrange flowers for the altar each week.
     title: The Flower Guild
     image: /img/flower-guild.jpg
     link: /ministries/flower-guild/
   - details: >-
       The Survivors Group provides support and education to individuals and
-      families who have experienced the loss of a loved one. Contact Arlene
-      Forde if you wish to become involved with the Survivors Group.
+      families who have experienced the loss of a loved one.
     title: The Survivors Group
     image: /img/survivors-group.jpg
     link: /ministries/survivors-group/

@@ -10,8 +10,7 @@ group:
       Bible Study meets on Tuesday evenings from 5 PM in the Conference Room.
       When we study the bible it is not only for information but also for
       transformation and application to our own lives and those those who we
-      come into contact with. All are invited to attend our Tuesday evening
-      sessions.
+      come into contact with.
     title: Bible Study
     image: /img/bible-study.jpg
     link: /ministries/bible-study/
@@ -26,8 +25,7 @@ group:
       The Lay Ministers assist the Priest during Services. They are charged with
       a number of duties including the serving of the consecrated bread and wine
       at Communion. Lay Ministers also visit the sick and other shut ins of the
-      Parish. People interested in becoming Lay Ministers can contact the Parish
-      Priest
+      Parish.
     title: Lay Ministers
     image: /img/lay-ministers.jpg
     link: /ministries/lay-ministers/
@@ -35,8 +33,7 @@ group:
       The Guild is dedicated to promoting, supporting and practicing Christ's
       ministry of healing as an integral part of the life and worship of the
       Church. The Guild takes its name from the Book of Tobit, where Saint
-      Raphael is the angel who helps Tobias find his way. Contact Jean Bootman
-      if you are interested in join the Guild.
+      Raphael is the angel who helps Tobias find his way.
     title: Guild of St Raphael
     image: /img/guild-of-st-raphael.jpg
     link: /ministries/guild-of-st-raphael/
