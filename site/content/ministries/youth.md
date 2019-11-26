@@ -13,14 +13,14 @@ group:
       Oswalds (10 a.m)
     title: Sunday School
     image: /img/sunday-school.jpg
-    link: ''
+    link: /ministries/sunday-school/
   - details: >-
       Our Youth Group acts as a forum for young vibrant Anglicans to have a
       voice. We engage in a wide variety of activities including drama, Latin
       dancing, football, and many others.
     title: Youth Group
     image: /img/youth-group.jpg
-    link: ''
+    link: /ministries/youth-group/
   - details: >-
       Our VBS takes place annually during the first 2 weeks of the vacation
       period. Fun filled actives including feild trips, bible study, arts and
@@ -40,23 +40,23 @@ group:
   - details: >-
       Want to be a Brownie, Guide or Ranger? Contact Aunty Jackie at
       663-6992/793 0750 or email jacquelinesarjent@gmail.com
-    title: 1st Tunapuna Girl Guides
+    title: Girl Guides
     image: /img/girl-guides.jpg
-    link: ''
+    link: /ministries/girl-guides/
   - details: >-
       Our servers assist the clergy at the Parish Communion. New members are
       always welcome call the Parish Office at 663-2153 or email
       admin@goodsheppherdtt.org
     title: Servers
     image: /img/servers.jpg
-    link: ''
+    link: /ministries/servers/
   - details: >-
       Our Youth Choir continues to be one of the best choirs in the North East
       Region. We are still looking for new members. If you would like to join
       Contact Manasha Creese
     title: Youth Choir
     image: /img/youth-choir.jpg
-    link: ''
+    link: /ministries/music-ministry/
 ---
 
 
