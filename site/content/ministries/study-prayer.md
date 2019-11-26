@@ -14,7 +14,7 @@ group:
       sessions.
     title: Bible Study
     image: /img/bible-study.jpg
-    link: ''
+    link: /ministries/bible-study/
   - details: >-
       Our meetings are held on the third Wednesday of Each month at 5pm in the
       Church building. In addition to our praise, we study various aspects of
@@ -23,6 +23,7 @@ group:
       Sundays of the month in preparation for morning service.
     title: Life in the Spirit Praise and Worship Group
     image: /img/praise-worship.jpg
+    link: /ministries/life-in-the-spirit/
   - details: >-
       The Lay Ministers assist the Priest during Services. They are charged with
       a number of duties including the serving of the consecrated bread and wine
@@ -31,6 +32,7 @@ group:
       Priest
     title: Lay Ministers
     image: /img/lay-ministers.jpg
+    link: /ministries/lay-ministers/
   - details: >-
       The Guild is dedicated to promoting, supporting and practicing Christ's
       ministry of healing as an integral part of the life and worship of the
@@ -39,5 +41,6 @@ group:
       if you are interested in join the Guild.
     title: Guild of St Raphael
     image: /img/guild-of-st-raphael.jpg
+    link: /ministries/guild-of-st-raphael/
 ---
 At Good Shepherd, we always strive to increase our faith through study and prayer. Join us as we learn more about more about the God we serve to his honor and glory.
