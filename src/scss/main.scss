@@ -379,7 +379,8 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
   }
   .is-dropdown-submenu > li a {padding: .8rem;}
 }
-.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a::after {border: none;}
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a::after,
+.drilldown .is-drilldown-submenu-parent > a::after {border: none;}
 .dropdown.menu.medium-horizontal > li.opens-right > .is-dropdown-submenu {
   z-index: 99999;
   border: 0;
@@ -398,6 +399,10 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
   align-items: left !important;
 
   li + li {margin: 0;}
+}
+
+@media screen and (max-width: 39.9375em) {
+  #topbar-responsive {width: 100%;}
 }
 
 // END TOPBAR
