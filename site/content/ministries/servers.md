@@ -1,9 +1,9 @@
 ---
 title: Server Guild
 ---
-An Altar Server is a lay assistant to priests, deacons and lay ministers in the celebration of the Holy Eucharist,  and the celebration of week day services, feast days, and all other services. During the Christian liturgy, the altar servers will carry out supportive tasks such as carrying the torches, crucifix, thurible, incense.
+An Altar Server is a lay assistant to priests, deacons and lay ministers in the celebration of the Holy Eucharist, and the celebration of week day services, feast days, and all other services. During the Christian liturgy, the altar servers will carry out supportive tasks such as carrying the torches, crucifix, thurible, incense.
 
-Altar servers comprise of boys, girls men and women who are appointed by the rector after a necessary training period.    With this training, servers learn to be disciplined, orderly and confident in the presence of the congregation. Most priests testify that this ministry, nourishes your love for Christ which is the foundation for their calling to the priesthood. 
+Altar servers comprise of boys, girls men and women who are appointed by the rector after a necessary training period. With this training, servers learn to be disciplined, orderly and confident in the presence of the congregation. Most priests testify that this ministry, nourishes your love for Christ which is the foundation for their calling to the priesthood.
 
 Servers are designated as follows:
 * Crucifer: This person carries the cross during liturgical processions.
@@ -16,6 +16,6 @@ A Server’s responsibilities include:
 * Participate during worship service
 * Perform assigned duties (e.g., crucifer).
 
-The Servers Guild meets every  2nd and 4th Saturday of every month at the Church. 
+The Servers Guild meets every  2nd and 4th Saturday of every month at the Church.
 
-To join contact Darren Jacob 
+To join contact Darren Jacob

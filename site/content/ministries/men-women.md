@@ -15,7 +15,7 @@ group:
   - details: >-
       The ACMS is a fellowship of Christian men who seek to live out the
       Christian faith in brotherhood with each other. Contact Oscar Gooding if
-      you are interested in joining the ACMS
+      you are interested in joining the Anglican Church Men Society
     title: Anglican Church Men Society (ACMS)
     image: /img/acms.jpg
     link: /ministries/acms/
@@ -27,8 +27,7 @@ group:
     image: /img/mothers-union.jpg
     link: /ministries/mothers-union/
   - details: >-
-      Our Ushers are charged with ensuring the needs of the congregation are met
-      prior to, during and following Services.
+      Ushers play an important role in welcoming church members and visitors to the church. Ushers regularly assist in services and generally ensure that the church service runs smoothly.
     title: Ushers Group
     image: /img/ushers.jpg
     link: /ministries/ushers/
@@ -40,8 +39,7 @@ group:
     image: /img/flower-guild.jpg
     link: /ministries/flower-guild/
   - details: >-
-      The Survivors Group provides support and education to individuals and
-      families who have experienced the loss of a loved one.
+      The Survivors Group was formed in 2018 in response to the need for fellowship and support among those parishioners who have lost loved ones. The group meets to provide counselling to members.
     title: The Survivors Group
     image: /img/survivors-group.jpg
     link: /ministries/survivors-group/

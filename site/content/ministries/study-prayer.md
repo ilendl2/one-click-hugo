@@ -15,9 +15,7 @@ group:
     image: /img/bible-study.jpg
     link: /ministries/bible-study/
   - details: >-
-      Our meetings are held on the third Wednesday of Each month at 5pm in the
-      Church building. In addition to our praise, we study various aspects of
-      the Bible and share testimonies and inspirational thoughts.
+      This group is devoted to the deepening of an individual’s relationship with Jesus Christ by invoking the transformative nature of the Holy Spirit in his/her life. Our meetings are held on the third Wednesday of Each month at 5pm in the Church building.
     title: Life in the Spirit
     image: /img/praise-worship.jpg
     link: /ministries/life-in-the-spirit/
