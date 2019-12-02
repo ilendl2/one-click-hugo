@@ -12,7 +12,7 @@ Mothers' Union's objectives are:
 
 The Mothers’ Union is a long-standing group within the church widely known for its philantrophic efforts devoted to family life.   Worldwide, the  International Mothers Union will celebrate 98 years on 11 June 2019.  A special celebratory service will be held on 16 June 2019 at St. Paul’s San Fernando.  
 
-The Good Shepherd Branch of the Mothers’ Union was established in 1940 and will be celebrating 79 years of existence in xxxx this year. The Mothers’ Union celebrate mass every 1st Sunday of the month and regularly meets every 4th  Wednesday of every month at 5:00 p.m. 
+The Good Shepherd Branch of the Mothers’ Union was established in 1940 and will be celebrating 79 years of existence in xxxx this year. The Mothers’ Union celebrate mass every 1st Sunday of the month and regularly meets every 4th  Wednesday of every month at 5:00 p.m.
 
 **Every 1st Sunday, the following Mother’s Union prayer is recited at Intercession:**  
 Loving Lord, We thank you for your love so freely given to us all. We pray for families around the world. Bless the work of the Mothers’ Union as we seek to share your love through the encouragement, strengthening and support of marriage and family life. Empowered by your Spirit, may we be united in prayer and worship, and in love and service reach out as your hands across the world. In Jesus’ name. Amen.

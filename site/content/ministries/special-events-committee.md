@@ -9,6 +9,6 @@ The Special Events Committee has been established for quite a number of  years, 
 * Emancipation Galore
 * Harvest Celebrations
 
-The committee currently has xxxx members and meets twice a month.   The committee welcomes individuals who can lend their talents and skills in producing events that will support the mission of the church. 
+The committee currently meets twice a month. The committee welcomes individuals who can lend their talents and skills in producing events that will support the mission of the church.
 
-Please contact Dave James if you would like to join this group. 
+Please contact Dave James at 762-9902 if you would like to join this group.

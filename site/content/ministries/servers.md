@@ -18,4 +18,4 @@ A Server’s responsibilities include:
 
 The Servers Guild meets every  2nd and 4th Saturday of every month at the Church.
 
-To join contact Darren Jacob
+To join contact Darren Jacob at 310-7886.
