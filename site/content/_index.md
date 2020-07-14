@@ -6,18 +6,9 @@ slider:
     image: /img/bell-tower.jpg
     link: '#'
     text: >-
-      Services will resume at Good Shepherd Church, Tunapuna from SUNDAY 21 JUNE
-      at 7.00am. Please note the following:
-
-      — All Parishioners MUST wear masks to enter the church and it MUST be kept
-      on during the service.
-
-      — Parishioners MUST enter through the western FRONT DOOR UNTIL FURTHER
-      NOTICE.
-
-      — Parishioners MUST WASH their hands before entering the church.
-
-      Please follow the instructions from the USHERS.
+      Services will resume at Good Shepherd Church, Tunapuna from Sunday 21 June
+      at 7am. Please note the following all Parishioners MUST wear masks to
+      enter the church and it MUST be kept on during the service.
   - title: Welcome
     image: /img/good-shepherd-people.png
     link: /worship/worship/
