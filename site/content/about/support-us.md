@@ -13,7 +13,7 @@ title: Support Us
 
 <div class="medium-6 cell">
 
-<img src="https://goodshepherdtt.org/img/good-shepherd-church-tunapuna.jpg" style="border-radius: 5px; margin-bottom: 10px;"/>
+![](/img/logo.png)
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in mollis massa, at tempus nibh. Aenean nisi purus, dignissim eu semper et, laoreet et dui. Mauris sollicitudin mi at posuere scelerisque.</p>
 
