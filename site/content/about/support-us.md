@@ -1,17 +1,23 @@
 ---
 title: Support Us
 ---
-<div class="row">
+<div class="grid-container">
 
-<div id="widget" class="medium-4 columns">
+<div class="grid-x grid-padding-x align-middle">
+
+<div id="widget" class="medium-4 cell">
 
 <iframe src="https://app.theflybottle.com/status-badge/34eb936a-7519-4c20-973d-a37f2423dd76" scrolling="no" allowfullscreen="" width="340" height="340" frameborder="0"></iframe>
 
 <a class="button medium" data-open="donateModal" style="margin-bottom: 30px;" aria-controls="donateModal" aria-haspopup="true" tabindex="0"><strong>Donate</strong></a></div>
 
-<div class="medium-8 columns"><div class="flex-video widescreen"><iframe src="https://www.youtube.com/embed/3HLx5S8SXRk?feature=oembed" allowfullscreen="" width="612" height="344" frameborder="0"></iframe></div></div>
+<div class="medium-8 cell">
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in mollis massa, at tempus nibh. Aenean nisi purus, dignissim eu semper et, laoreet et dui. Mauris sollicitudin mi at posuere scelerisque. Cras quis dui ultricies, hendrerit libero eget, aliquam massa.</p>
 
 </div>
+
+</div></div>
 
 <div class="reveal full without-overlay" id="donateModal" data-reveal="" data-v-offset="0" role="dialog" aria-hidden="true" data-yeti-box="donateModal" data-resize="donateModal" data-n="exewxn-n">
 
