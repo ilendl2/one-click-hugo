@@ -9,13 +9,13 @@ title: Support Us
 
 <iframe src="https://app.theflybottle.com/status-badge/34eb936a-7519-4c20-973d-a37f2423dd76" scrolling="no" allowfullscreen="" width="340" height="340" frameborder="0"></iframe>
 
-<a class="button medium" data-open="donateModal" style="margin-bottom: 30px;" aria-controls="donateModal" aria-haspopup="true" tabindex="0"><strong>Donate</strong></a></div>
+<a class="button medium expanded" data-open="donateModal" style="margin-bottom: 30px;" aria-controls="donateModal" aria-haspopup="true" tabindex="0"><strong>Donate</strong></a></div>
 
 <div class="medium-6 cell">
 
 <img src="https://goodshepherdtt.org/img/good-shepherd-church-tunapuna.jpg" style="border-radius: 5px;"/>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in mollis massa, at tempus nibh. Aenean nisi purus, dignissim eu semper et, laoreet et dui. Mauris sollicitudin mi at posuere scelerisque. Cras quis dui ultricies, hendrerit libero eget, aliquam massa.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in mollis massa, at tempus nibh. Aenean nisi purus, dignissim eu semper et, laoreet et dui. Mauris sollicitudin mi at posuere scelerisque.</p>
 
 </div>
 
