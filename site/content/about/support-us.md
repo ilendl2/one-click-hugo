@@ -19,9 +19,19 @@ title: Support Us
 
 </div></div>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas iaculis ligula quis urna bibendum, vel efficitur nunc tempor. Nunc vitae risus non lectus convallis euismod. Integer ut sem eu purus fringilla malesuada. Pellentesque consectetur orci odio, nec vehicula tellus consectetur at. Cras id sem mauris. Integer sodales sapien imperdiet imperdiet lobortis.</p>
+<p>During this period of lock down we are our parishioners and other with additional means to support the work and mission of the Church.</p> 
 
-<p>Cras id sem mauris. Integer sodales sapien imperdiet imperdiet lobortis. Donec non sollicitudin leo, et fermentum erat. Maecenas ac arcu at urna aliquam vestibulum. Ut in ante vel velit eleifend dictum. Curabitur faucibus magna sed ante placerat scelerisque. Suspendisse potenti.</p>
+<h6>Donate Online</h6>
+
+<p>Use any major credit or debit card (Visa, MasterCard, Amex, Discover etc.) to make your contribution using our secure donation form.</p>
+
+<h6>Cash or Cheques</h6>
+
+<p>Direct Payments by Cash or Cheques dropped off at the Church Office. Office is open on Mondays, Wednesdays and Fridays from 9am - 2 pm. <strong>Make Cheques Payable To The Church Of The Good Shepherd.</strong></p>
+
+<h6>Bank Deposit or ACH Transfer</h6>
+
+<p>Republic Bank, Tunapuna West Acct #550211370501</p>
 
 <div class="reveal full without-overlay" id="donateModal" data-reveal="" data-v-offset="0" role="dialog" aria-hidden="true" data-yeti-box="donateModal" data-resize="donateModal" data-n="exewxn-n">
 
