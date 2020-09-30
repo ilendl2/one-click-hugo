@@ -1,9 +1,9 @@
 ---
 title: Support Us
 ---
-<p>During this period of lock down we are our parishioners and other with additional means to support the work and mission of the Church.</p> 
+<p>During this extraordinary time of "lock-down" we are providing our parishioners and other supporters with new way of supporting the work and mission of our Church through online donations. </p> 
 
-<h5>Donate Online</h5>
+<h4>Donate Online</hd>
 
 <p>Use any major credit or debit card (Visa, MasterCard, Amex, Discover etc.) to make your contribution using our secure donation form.</p>
 
@@ -13,7 +13,7 @@ title: Support Us
 
 <div id="widget" class="medium-6 cell">
 
-<iframe src="https://app.theflybottle.com/status-badge/d4961991-0877-4a36-b0ed-e2ff6aba5c8b" scrolling="no" allowfullscreen="" width="340" height="200" frameborder="0" style="margin-top: 20px;"></iframe>
+<iframe src="https://app.theflybottle.com/status-badge/e8276a25-f69d-4a8c-a032-0e817a2e4414" scrolling="no" allowfullscreen="" width="340" height="200" frameborder="0" style="margin-top: 20px;"></iframe>
 
 <a class="button medium expanded" data-open="donateModal" style="margin-bottom: 30px;" aria-controls="donateModal" aria-haspopup="true" tabindex="0"><strong>Donate</strong></a></div>
 
@@ -25,15 +25,11 @@ title: Support Us
 
 </div></div>
 
-<h5>Cash or Cheques</h5>
+<h5><strong>You can continue to support us by making</strong></h5>
 
-<p>Direct Payments by Cash or Cheques dropped off at the Church Office. Office is open on Mondays, Wednesdays and Fridays from 9am - 2 pm.</p> 
+<p></strong>Direct Payments by Cash or Cheques</strong>  Drop off at the Church Office which is open on Mondays, Wednesdays and Fridays from 9am - 2 pm. (<i>Make all Cheques Payable To The Church Of The Good Shepherd.</i>)</p>
 
-<p><strong>Make Cheques Payable To The Church Of The Good Shepherd.</strong></p>
-
-<h5>Bank Deposit or ACH Transfer</h5>
-
-<p>Republic Bank, Tunapuna West Acct #550211370501</p>
+<p><strong>Bank Deposit or ACH Transfer</strong>- Republic Bank, Tunapuna West Acct #550211370501</p>
 
 <div class="reveal full without-overlay" id="donateModal" data-reveal="" data-v-offset="0" role="dialog" aria-hidden="true" data-yeti-box="donateModal" data-resize="donateModal" data-n="exewxn-n">
 
