@@ -14,13 +14,11 @@ slider:
       page
     title: Good Shepherd Live Stream
     image: /img/bell-tower.jpg
-  - link: /worship/worship/
+  - link: /about/about-us/
     text: >-
-      Welcome to The Parish of Good Shepherd Parish in congregation at the
-      Church of Good Shepherd Tunapuna and at St.Oswald's Caroni. We're a
-      community of caring people who gather to worship and praise God in Common
-      Prayer. Interested in paying us a visit?
-    title: Welcome
+      Good Shepherd Parish is a community of caring people who gather to worship
+      and praise God in Common Prayer. Interested in paying us a visit?
+    title: Join Us at Good Shepherd
     image: /img/good-shepherd-people.png
   - link: /about/parish-hall/
     text: >-
@@ -30,14 +28,6 @@ slider:
       Office, 663-2153 to make a booking now!
     title: Parish Hall
     image: /img/parish-hall.png
-  - link: 'https://www.youtube.com/channel/UCvbIE2fxwmcZvHtnVv7aoxw'
-    text: >-
-      We've started a YouTube Channel where we will be posting videos from
-      selected events including; Church services, sermons, musical performances
-      and other special events. Please subscribe to our YouTube channel so you
-      can enjoy this content.
-    title: Youtube Channel
-    image: /img/youtube.png
 intro:
   heading: Welcome
   text: >-
@@ -46,13 +36,20 @@ intro:
     Good Shepherd, Freeling Street, Tunapuna & St Oswald's, Southern Main Road,
     Caroni.
 block:
-  - link: /worship/service-schedule/
+  - link: 'https://facebook.com/goodshepherdtt/live'
     text: >-
-      Worship brings us into community where people can support each other and
-      where we can encourage each other to live in the ways God calls us to
-      live.
-    title: Service Schedule
+      Due to COVID 19 restrictions we will be live-streaming Morning Prayer
+      every Sunday at 7.30am on our Facebook Page (@goodshepherdtt). If you miss
+      the live stream, you can still find past service on this page.
+    title: Sunday Virtual Service
     image: /img/schedule.svg
+  - link: /about/support-us/
+    text: >
+      During this period of "lock down" we asking our parishioners and other 
+      supporters to help fund the work and mission of the Church by donating
+      online
+    title: Donate to Fund our Work and Mission
+    image: /img/donate.svg
   - link: /ministries/ministries/
     text: >-
       Good Shepherd offers many opportunities for people of all ages and
@@ -72,13 +69,6 @@ block:
       and large functions.
     title: Parish Hall Rental
     image: /img/parish-hall.svg
-  - link: /about/support-us/
-    text: >
-      During this period of "lock down" we asking our parishioners and other 
-      supporters to help fund the work and mission of the Church by donating
-      online
-    title: Donate to Fund our Work and Mission
-    image: /img/donate.svg
   - link: /worship/music-ministry/
     text: >-
       If you have musical gifts you would like to share with the community,
