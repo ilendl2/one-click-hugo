@@ -1,7 +1,7 @@
 ---
 title: Support Us
 ---
-<p>During this extraordinary time of "lock-down" we are providing our parishioners and other supporters with new way of supporting the work and mission of our Church through online donations. </p> 
+<p>During this extraordinary time of "lock-down" we are providing our parishioners and other supporters with a new way of supporting the work and mission of our Church by donating online </p> 
 
 <h4>Donate Online</hd>
 
