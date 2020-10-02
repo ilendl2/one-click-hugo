@@ -26,7 +26,7 @@ Prior to 1886, the only church that existed between St Joseph and Tacarigua was 
 
 Over the years there have been a number of changes and improvements to the Church. The pipe organ, was installed in the 1890s and is still functional today. It was etensively refurbished in 2012. Our famous belfry was actually a gift from Mr. John Payne in memory of his wife. It was originally wooden and was later replaced by a steel structure donated by the Orange Grove Sugar Estate. This structure, which towers over the surrounding buildings was restored in 2015. The southern wing of the church adjoining the organ chamber was added in early 1900s and the northern wing, west of the Lady Chapel was added some time later. Both these extensions were timber. The wooden building was replaced by masonry finished with lime mortar in the 1920s. The Lady Chapel was added in the 1930s, the current main altar was installed along with new stained glass windows. Unfortunately  these have been damaged to the extent that only the "Good Shepherd" stained glass panel remains intact
 
-## Restoration 
+## Restoration
 
 ![Restoration Work on Good Shepherd Tunapuna](/img/img_3866.jpg "Restoration Work on Good Shepherd Tunapuna")
 
@@ -36,20 +36,12 @@ The work on the church is not quite yet finished. Phase IV will address the ceil
 
 ## Rededication Service
 
-![](/img/dsc_0883.jpg)
+![Dedication Stone](/img/dsc_0883.jpg)
 
 This rededication culminated months of renovations to the structure that has stood as a beacon of a hope and a light to the community of Tunapuna and environs for over 100 years. As one of the oldest buildings in Tunapuna, the church has withstood the elements, subject to the vagaries of the weather and climate. The church service was held on December 02, 2018 which was the first Sunday in Advent. his rededication service began firstly with the commissioning of a new foundation stone, and blessings and prayers at the threshold at the main door of the church. 
 
-![]()
-
 All church doors were closed and our Lord Bishop knocked his staff on the door three (3) times, after which the service began with singing of hymns and psalms. Prayers for the consecration of the church were followed by the blessing of the font, the lectern and the pulpit. It was indeed a solemn yet celebratory service. The church was filled with well wishers, guests, parishioners, church groups, lay ministers, vestry and visiting priests. Many were thanking God for the ability to worship in the refurbished structure where the community can regularly gather to hear the word of God, to pray together, to receive the sacraments, and to celebrate the eucharist. The service ended with the congregation lustily singing the recessional hymn “The Church’s One Foundation is Jesus Christ our Lord”. For all things we give thanks
 
-![](/img/dsc_1021.jpg)
-
-
-
-
-
-
+![Worship at the Renovated Church](/img/worship-at-goodshepherd.jpg "Worship at the Renovated Church")
 
 __
