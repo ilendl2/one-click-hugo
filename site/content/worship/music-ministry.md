@@ -1,6 +1,6 @@
 ---
 title: 'Music Ministry '
-image: /img/mens-choir-in-green.jpg
+image: /img/img_5802.jpg
 ---
 <div class="responsive-embed"><iframe src="https://www.youtube.com/embed/I5d1OX9vTdY" allow="autoplay; encrypted-media" allowfullscreen="" width="420" height="215" frameborder="0"></iframe></div>
 
