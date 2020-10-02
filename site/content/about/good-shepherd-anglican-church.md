@@ -1,5 +1,5 @@
 ---
-title: Good Shepherd Anglican Church
+title: Good Shepherd Tunapuna
 image: /img/good-shepherd-church-tunapuna.jpg
 ---
 Good Shepherd Anglican Church is located located at [Freeling Street, Tunapuna](https://goo.gl/maps/CrrrQ3SGpVM2). It is one the oldest building in the town of Tunapuna, having being originally consecrated in November, 1886. For over 130 years, Good Shepherd Anglican Church has played a prominent role in the community of Tunapuna. Indeed, [C.L.R James](https://en.wikipedia.org/wiki/C._L._R._James) in his famous book on West Indian cricket, [Beyond a Boundary](https://amzn.to/2NogbV0) credits the Good Shepherd Anglican Church as being fundamental in instilling and shaping the values. In his book he recalls that it was at the Church of the Good Shepherd:
