@@ -10,10 +10,10 @@ slider:
     image: /img/good-shepherd-church-tunapuna.jpg
   - link: 'https://facebook.com/goodshepherdtt/live'
     text: >-
-      Live streaming of Morning Prayer every Sunday at 7.30pm on our Facebook
-      page
+      Join us for the Live stream of Morning Prayer every Sunday at 7.30am on
+      our Facebook page (@goodshepherdtt)
     title: Good Shepherd Live Stream
-    image: /img/bell-tower.jpg
+    image: /img/homepage-slider.jpg
   - link: /about/about-us/
     text: >-
       Good Shepherd Parish is a community of caring people who gather to worship
@@ -29,12 +29,11 @@ slider:
     title: Parish Hall
     image: /img/parish-hall.png
 intro:
-  heading: Welcome
+  heading: The Parish of the Good Shepherd
   text: >-
-    The Good Shepherd Parish. We're a community of caring people who gather to
-    worship and praise God in Common Prayer. We Congregate at The Church of the
-    Good Shepherd, Freeling Street, Tunapuna & St Oswald's, Southern Main Road,
-    Caroni.
+    We're a community of caring people who gather to worship and praise God in
+    Common Prayer. We Congregate at The Church of the Good Shepherd, Freeling
+    Street, Tunapuna and at St Oswald's, Southern Main Road, Caroni.
 block:
   - link: 'https://facebook.com/goodshepherdtt/live'
     text: >-
