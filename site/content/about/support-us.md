@@ -29,7 +29,7 @@ title: Support Us
 
 <p><strong>Direct Payments by Cash or Cheques</strong>  Drop off at the Church Office which is open on Mondays, Wednesdays and Fridays from 9am - 2 pm. (<i>Make all Cheques Payable To The Church Of The Good Shepherd.</i>)</p>
 
-<p><strong>Direct Bank Deposit or ACH Transfer</strong>to Republic Bank, Tunapuna West Acct #550211370501</p>
+<p><strong>Direct Bank Deposit or ACH Transfer</strong> to Republic Bank, Tunapuna West Acct #550211370501</p>
 
 <div class="reveal full without-overlay" id="donateModal" data-reveal="" data-v-offset="0" role="dialog" aria-hidden="true" data-yeti-box="donateModal" data-resize="donateModal" data-n="exewxn-n">
 
