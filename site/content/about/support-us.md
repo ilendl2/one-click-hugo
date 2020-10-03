@@ -1,11 +1,11 @@
 ---
 title: Support Us
 ---
-<p>During this extraordinary time of "lock-down" we are providing our parishioners and other supporters with a new way of supporting the work and mission of our Church by donating online </p> 
+<p>During this extraordinary time of  COVID-19 and "lock-down" we are providing our parishioners and well-wishers with a new way of supporting the work and mission of Good Shepherd via online donations. </p> 
 
 <h4>Donate Online</hd>
 
-<p>Use any major credit or debit card (Visa, MasterCard, Amex, Discover etc.) to make your contribution using our secure donation form.</p>
+<p>You can use any major credit or debit card (Visa, MasterCard, Amex, Discover etc.) to make your contribution using our secure donation form.</p>
 
 <div class="grid-container">
 
@@ -27,9 +27,9 @@ title: Support Us
 
 <h5><strong>You can continue to support us by making</strong></h5>
 
-<p></strong>Direct Payments by Cash or Cheques</strong>  Drop off at the Church Office which is open on Mondays, Wednesdays and Fridays from 9am - 2 pm. (<i>Make all Cheques Payable To The Church Of The Good Shepherd.</i>)</p>
+<p><strong>Direct Payments by Cash or Cheques</strong>  Drop off at the Church Office which is open on Mondays, Wednesdays and Fridays from 9am - 2 pm. (<i>Make all Cheques Payable To The Church Of The Good Shepherd.</i>)</p>
 
-<p><strong>Bank Deposit or ACH Transfer</strong>- Republic Bank, Tunapuna West Acct #550211370501</p>
+<p><strong>Direct Bank Deposit or ACH Transfer</strong>to Republic Bank, Tunapuna West Acct #550211370501</p>
 
 <div class="reveal full without-overlay" id="donateModal" data-reveal="" data-v-offset="0" role="dialog" aria-hidden="true" data-yeti-box="donateModal" data-resize="donateModal" data-n="exewxn-n">
 
