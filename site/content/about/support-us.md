@@ -1,5 +1,10 @@
 ---
 title: Support Us
+image: /img/good-shepherd-church-tunapuna.jpg
+description: >-
+  During this extraordinary time of  COVID-19 and "lock-down" we are providing
+  our parishioners and well-wishers with a new way of supporting the work and
+  mission of Good Shepherd via online donations.
 ---
 <p>During this extraordinary time of  COVID-19 and "lock-down" we are providing our parishioners and well-wishers with a new way of supporting the work and mission of Good Shepherd via online donations. </p> 
 
